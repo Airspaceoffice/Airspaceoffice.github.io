@@ -32,7 +32,7 @@ Copyright © All rights Reserved
 ----------------------*/
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Avenir Next', sans-serif;
     position: relative;
 }
 
@@ -201,12 +201,12 @@ p.lead {
     display: none;
     position: fixed;
     top: 10vh;
-    left: 15vw;
-    right: 15vw;
+    left: 30vw;
+    right: 30vw;
     border: 3px solid rgb(240, 124, 148);
     z-index: 9;
     background-color: #ffff;
-    max-width: 70vw;
+    max-width: 40vw;
   }
 
 .nav-menu {
@@ -387,13 +387,10 @@ img#myImage {
     color: #fff;
 }
 
-span {
+.rw-words span {
     position: absolute;
     opacity: 0;
     overflow: hidden;
-}
-
-.rw-words span {
     animation: changeWords 15s ease-out infinite;
 }
 

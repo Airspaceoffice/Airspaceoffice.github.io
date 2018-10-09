@@ -14,7 +14,7 @@ URI     : https://colorlib.com
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Mobland - Mobile App Landing Page Template">
+    <meta name="description" content="Airspace designs, builds, and operates amenity-rich, shared-floor offices on flexible terms.">
     <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
 
     <!-- Font -->
@@ -58,26 +58,12 @@ URI     : https://colorlib.com
         }();
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('64h28b67tdad');
-        </script>
-        <!-- End of Async Drift Code -->
+    </script>
+    <!-- End of Async Drift Code -->
 
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
-    <!-- <script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script><script type="text/javascript">
-            var JFL_82797864536173 = new JotformFeedback({
-              formId: '82797864536173',
-              base: 'https://form.jotform.com/',
-              windowTitle: '',
-              background: '#f07c94',
-              fontColor: '#FFFFFF',
-              type: 'false',
-              height: 500,
-              width: 700,
-              openOnLoad: false
-            });
-    </script> -->
-
     <!-- Nav Menu -->
     <div class="nav-menu fixed-top">
         <div class="container">
@@ -91,7 +77,6 @@ URI     : https://colorlib.com
                                 <li class="nav-item"> <a class="nav-link" href="#faqs">FAQS</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="owners.html">OWNERS</a> </li>
-                                <!-- <li class="nav-item"> <a class="nav-link" href="brokers.html">BROKERS</a> </li> -->
                                 <li class="nav-item lightbox-82797864536173"><a href="javascript:openForm()" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request A Consultation</a></li>
                             </ul>
                         </div>
@@ -106,7 +91,6 @@ URI     : https://colorlib.com
             <source src="images/background-video.mp4" type="video/mp4">
         </video>
         <div class="overlay-text">
-            <!-- <img src="images/circle-logo.png" class="circle-logo"> -->
              <div class="headline">the office space that's
                  <div class="rw-words">
                     <span>on flexible terms.</span> 
@@ -120,7 +104,7 @@ URI     : https://colorlib.com
             <br>
             <br>
             <br>
-             <p class="tagline"> Airspace designs, builds, and operates amenity-rich, <br> shared-floor offices on flexible terms.</p>
+            <p class="tagline"> Airspace designs, builds, and operates amenity-rich, <br> shared-floor offices on flexible terms.</p>
             <p class="nav-item"><a href="javascript:openForm()" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Request A Consultation</a></p>
         </div>
     </div>
@@ -129,11 +113,49 @@ URI     : https://colorlib.com
     <script>
         function openForm() {
             document.getElementById("consultForm").style.display = "block";
+            disableScroll();
         }
       
         function closeForm() {
             document.getElementById("consultForm").style.display = "none";
+            enableScroll();
         }
+
+            // left: 37, up: 38, right: 39, down: 40,
+            // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+            var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+            function preventDefault(e) {
+            e = e || window.event;
+            if (e.preventDefault)
+                e.preventDefault();
+            e.returnValue = false;  
+            }
+
+            function preventDefaultForScrollKeys(e) {
+                if (keys[e.keyCode]) {
+                    preventDefault(e);
+                    return false;
+                }
+            }
+
+            function disableScroll() {
+            if (window.addEventListener) // older FF
+                window.addEventListener('DOMMouseScroll', preventDefault, false);
+            window.onwheel = preventDefault; // modern standard
+            window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+            window.ontouchmove  = preventDefault; // mobile
+            document.onkeydown  = preventDefaultForScrollKeys;
+            }
+
+            function enableScroll() {
+                if (window.removeEventListener)
+                    window.removeEventListener('DOMMouseScroll', preventDefault, false);
+                window.onmousewheel = document.onmousewheel = null; 
+                window.onwheel = null; 
+                window.ontouchmove = null;  
+                document.onkeydown = null;  
+            }
     </script>
 
     <div class="section light-bg" id="features">
@@ -147,7 +169,7 @@ URI     : https://colorlib.com
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <span class="ti-key gradient-fill ti-2x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Turn-Key</h4>
                                     <p class="card-text">Combination of common and private space that is furnished, branded, Wi-Fi enabled, and tailored to your needs.</p>
@@ -160,7 +182,7 @@ URI     : https://colorlib.com
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <span class="ti-ruler-alt-2 gradient-fill ti-2x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Flexible</h4>
                                     <p class="card-text">Shorter terms than traditional 5-10 year leases. Add space and make changes as you your business demands.</p>
@@ -173,7 +195,7 @@ URI     : https://colorlib.com
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <span class="ti-wand gradient-fill ti-2x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Serviced</h4>
                                     <p class="card-text">Hassle free space cleaning, stocked kitchens, coffee, IT solutions, receptionist, and event catering.</p>
@@ -190,7 +212,7 @@ URI     : https://colorlib.com
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <span class="ti-money gradient-fill ti-2x mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Affordable</h4>
                                     <p class="card-text">Shared amenities and common spaces lower costs with an average of 10% savings over traditional leases.</p>
@@ -203,7 +225,7 @@ URI     : https://colorlib.com
                 <div class="card features">
                     <div class="card-body">
                         <div class="media">
-                            <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                            <span class="ti-rss-alt gradient-fill ti-2x mr-3"></span>
                             <div class="media-body">
                                 <h4 class="card-title">Technology Enabled</h4>
                                 <p class="card-text">Reserve conference rooms, put in service requests, cater an event, and much more with the complimentary Airspace app.</p>
