@@ -180,6 +180,10 @@ p.lead {
     margin-bottom: 3rem;
 }
 
+.section-title-no-m { 
+    text-align: center;
+}
+
 .section-title small {
     color: #998a9b;
 }
@@ -281,7 +285,7 @@ header {
 .hero-container { 
     position: relative;
     overflow: hidden;
-    max-height: 90vh;
+    max-height: 70vh;
 }
 
 .hero-container-med { 
@@ -682,7 +686,7 @@ img#myImage {
 ----------------------*/
 
 .social-icons {
-    text-align: right;
+    text-align: left;
 }
 
 .social-icons a {
@@ -693,7 +697,7 @@ img#myImage {
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    margin: 0 0.3rem;
+    margin-right: 0.6em;
     border-radius: 5px;
     color: rgb(240, 124, 148);
     transition: all 0.3s ease;
