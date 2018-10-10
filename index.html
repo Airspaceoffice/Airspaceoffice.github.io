@@ -84,657 +84,117 @@ URI     : https://colorlib.com
                 </div>
             </div>
         </div>
-    </div>    
+    </div>  
 
-    <div class="hero-container">
-        <video autoplay muted loop id="myVideo">
-            <source src="images/background-video.mp4" type="video/mp4">
-        </video>
-        <div class="overlay-text">
-             <div class="headline">the office space that's
-                 <div class="rw-words">
-                    <span>on flexible terms.</span> 
-                    <span>designed &amp; furnished.</span>
-                    <span>serviced.</span>
-                    <span>amenity rich.</span>
-                    <span>affordable.</span>
-                </div>            
-            </div>  
-            <br>
-            <br>
-            <br>
-            <br>
-            <p class="nav-item"><a href="javascript:openForm()" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Request A Consultation</a></p>
+    <div class="hero-container-med">
+            <video autoplay muted loop id="myVideo">
+                <source src="images/background-video.mp4" type="video/mp4">
+            </video>
+                    <div class="overlay-text">
+                            <div class="headline">the future of office space is
+                                <div class="rw-words">
+                                   <span>on flexible terms.</span> 
+                                   <span>designed &amp; furnished.</span>
+                                   <span>serviced.</span>
+                                   <span>amenity rich.</span>
+                                   <span>affordable.</span>
+                               </div>            
+                           </div>  
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+                           <p class="tagline text-left">Airspace design, builds, and operates <br> fully-equipped and serviced office spaces on flexible terms.</p>
+                       </div>
         </div>
-    </div>
 
-
-    <script>
-        function openForm() {
-            document.getElementById("consultForm").style.display = "block";
-            disableScroll();
-        }
-      
-        function closeForm() {
-            document.getElementById("consultForm").style.display = "none";
-            enableScroll();
-        }
-
-            // left: 37, up: 38, right: 39, down: 40,
-            // spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-            var keys = {37: 1, 38: 1, 39: 1, 40: 1};
-
-            function preventDefault(e) {
-            e = e || window.event;
-            if (e.preventDefault)
-                e.preventDefault();
-            e.returnValue = false;  
-            }
-
-            function preventDefaultForScrollKeys(e) {
-                if (keys[e.keyCode]) {
-                    preventDefault(e);
-                    return false;
-                }
-            }
-
-            function disableScroll() {
-            if (window.addEventListener) // older FF
-                window.addEventListener('DOMMouseScroll', preventDefault, false);
-            window.onwheel = preventDefault; // modern standard
-            window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
-            window.ontouchmove  = preventDefault; // mobile
-            document.onkeydown  = preventDefaultForScrollKeys;
-            }
-
-            function enableScroll() {
-                if (window.removeEventListener)
-                    window.removeEventListener('DOMMouseScroll', preventDefault, false);
-                window.onmousewheel = document.onmousewheel = null; 
-                window.onwheel = null; 
-                window.ontouchmove = null;  
-                document.onkeydown = null;  
-            }
-    </script>
-
-    <div class="section white-bg">
-        <div class="container">
-            <h2 class="section-title-no-m">Airspace design, builds, and operates <br> fully-equipped and serviced office spaces on flexible terms.</h2>
-        </div>
-    </div>
-
-
-    <div class="section light-bg" id="features">
-        <div class="container">
-            <div class="section-title">
-                <small>Our Value</small>
-                <h3>Why You'll Love an Airspace</h3>
-                <p class="mt-3">Why sign a five year lease? Our offices are already designed, branded, furnished, and tech-enabled.</p>
-            </div>
-            <div class="row text-center">
-                <div class="col-12 col-lg-4">
-                    <span class="ti-stats-up gradient-fill ti-4x mr-3"></span>
-                    <h4 class="mt-3">Focus on Your Business</h4>
-                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices are already designed, branded, furnished, and tech-enabled.</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <span class="ti-infinite gradient-fill ti-4x mr-3"></span>
-                    <h4 class="mt-3">Flexible Terms</h4>
-                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices are already designed, branded, furnished, and tech-enabled.</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <span class="ti-money gradient-fill ti-4x mr-3"></span>
-                    <h4 class="mt-3">Affordable Prices</h4>
-                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices are already designed, branded, furnished, and tech-enabled.</p>
-                </div>
-            </div>
-            <hr class="mt-5 mb-5">
-            <div class="section-title mt-5">
-                <small>Our Offerings</small>
-                <h3>What Comes With Every Airspace</h3>
-                <p class="mt-3">Airspace tries provide a standardized experience.</p>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-light-bulb gradient-fill ti-2x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Furniture</h4>
-                                    <p class="card-text">Our offices are already designed, branded, furnished, and tech-enabled.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-agenda gradient-fill ti-2x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Private Conference Rooms</h4>
-                                    <p class="card-text">We offer shorter leases, so your space can easily grow with your business.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-user gradient-fill ti-2x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Reception Service</h4>
-                                    <p class="card-text"> We take care of cleaning, stocking supplies & snacks, Wi-Fi, IT solutions, etc.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-3">
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-rss-alt gradient-fill ti-2x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Wi-Fi</h4>
-                                        <p class="card-text">Our offices are already designed, branded, furnished, and tech-enabled.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-tablet gradient-fill ti-2x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">AV/IT</h4>
-                                        <p class="card-text">We offer shorter leases, so your space can easily grow with your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-trash gradient-fill ti-2x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Cleaning</h4>
-                                        <p class="card-text"> We take care of cleaning, stocking supplies & snacks, Wi-Fi, IT solutions, etc.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="row mt-3">
-                    <div class="col-12 col-lg-4">
-                            <div class="card features">
-                                <div class="card-body">
-                                    <div class="media">
-                                        <span class="ti-ruler-pencil gradient-fill ti-2x mr-3"></span>
-                                        <div class="media-body">
-                                            <h4 class="card-title">Supplies</h4>
-                                            <p class="card-text"> We take care of cleaning, stocking supplies & snacks, Wi-Fi, IT solutions, etc.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card features">
-                        <div class="card-body">
-                            <div class="media">
-                                <span class="ti-paint-bucket gradient-fill ti-2x mr-3"></span>
-                                <div class="media-body">
-                                    <h4 class="card-title">Snacks & Drinks</h4>
-                                    <p class="card-text">Our office spaces are on average 10% cheaper due to space efficiency.</p>                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-12 col-lg-4">
-                <div class="card features">
-                    <div class="card-body">
-                        <div class="media">
-                            <span class="ti-layout-placeholder gradient-fill ti-2x mr-3"></span>
-                            <div class="media-body">
-                                <h4 class="card-title">Shared Common Areas</h4>
-                                <p class="card-text">With receptionists & only your branding, our offices exuberate professionalism.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-3">
-                <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-envelope gradient-fill ti-2x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Mailing Services</h4>
-                                        <p class="card-text">With receptionists & only your branding, our offices exuberate professionalism.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                            <div class="card features">
-                                <div class="card-body">
-                                    <div class="media">
-                                        <span class="ti-more gradient-fill ti-2x mr-3"></span>
-                                        <div class="media-body">
-                                            <h4 class="card-title">And More!</h4>
-                                            <p class="card-text">With receptionists & only your branding, our offices exuberate professionalism.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-        </div>
-    </div>
-
-    </div>
-    </div>
-    <!-- // end .section -->
-
-    <div class="section white-bg">
-
+        <!-- <div class="section white-bg">
             <div class="container">
-                <div class="section-title">
-                    <span class="ti-direction-alt gradient-fill ti-2x"></span>
-                    <br>
-                    <small>How it Works</small>
-                    <h3>Find an Airspace For Your Business</h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 d-flex align-items-center">
-                        <ul class="list-unstyled ui-steps">
-                            <li class="media">
-                                <div class="circle-icon mr-4">1</div>
-                                <div class="media-body">
-                                    <h5>Request a Consultation.</h5>
-                                    <p>We get to know you, your business, your employees, and what your needs are. This is one of the most important steps in the process, ensuring we become a stakeholder in your business's success.</p>
-                                </div>
-                            </li>
-                            <li class="media my-4">
-                                <div class="circle-icon mr-4">2</div>
-                                <div class="media-body">
-                                    <h5>Find Your Space.</h5>
-                                    <p>Whether you choose an available Airspace office or one of our pre-screened and hand-selected locations, you will have a designed and furnished space built to meet your business needs.</p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <div class="circle-icon mr-4">3</div>
-                                <div class="media-body">
-                                    <h5>Grow your business.</h5>
-                                    <p>Focus on your customers, we've got your space covered. As your needs change and your business grows, Airspace will help you adapt without worrying about leases, high costs, and typical real estate hurdles.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4 mt-5">
-                        <img src="images/steps-photo.jpg" alt="iphone" class="img-fluid">
-                    </div>
-    
-                </div>
-    
+                <h2 class="section-title-no-m">Airspace design, builds, and operates <br> fully-equipped and serviced office spaces on flexible terms.</h2>
             </div>
-    
-        </div>
-        <!-- // end .section -->
+        </div> -->
 
-        <div class="section light-bg" id="faqs">
+        <div class="section light-bg" id="features">
                 <div class="container">
                     <div class="section-title">
-                        <span class="ti-help-alt gradient-fill ti-2x"></span>
-                        <br>
-                        <small>FAQs</small>
-                        <h3>Frequently Asked Questions</h3>
+                        <h3>Our Solutions</h3>
+                        <p class="mt-3">Why sign a five year lease? Our offices are already designed, branded, furnished, and tech-enabled.</p>
                     </div>
-        
-                    <ul class="nav nav-tabs nav-justified" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#difference"> <span class="ti-palette ti-1x mt-2"></span>
-                                Difference</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#general"> <span class="ti-help-alt ti-1x mt-2"></span>
-                                General</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#thespace">  <span class="ti-home ti-1x mt-2"></span> The Space</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#owners"> <span class="ti-crown ti-1x mt-1"></span> Owners</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="difference">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <div>
-                                    <p class="lead">What makes Airspace Different?</p>
-                                     <p>Airspace is not a co-working space. Airspace designs, builds, and services semi-private offices on flexible terms.
-                                </div>
-                             </div>
-                         </div>
-
-                        <div class="tab-pane fade" id="general">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <!-- <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0"> -->
-                                <div>
-                                    <p class="lead">Is Airspace a Co-working space?</p>
-                                    <p>Airspace is not a co-working space. Airspace designs, builds, and services semi-private offices on flexible terms.
-                                    </p>
-                                    <br>
-                                    <p class="lead">What is The Cost of a Space? What is included?</p>
-                                    <p> The pricing includes designing, building out, and servicing your office space. This also includes the space, furniture, branding, Wi-Fi, utilities, cleaning, receptionist, coffee, stocked kitchen, and office space management software solutions.
-                                    </p>
-                                    <br>
-                                    <p class="lead">How do you provide all these amenities and services while keeping the space affordable?</p>
-                                    <p>A few things help us keep costs for you low. Our modular space designs are customizable without requiring complete re-designs specific to each space, saving on buildout costs. Our combination of private, semi-private, and shared open spaces allows organizations to share traditional costs, saving in the absolute on the space.
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="row text-center">
+                        <div class="col-12 col-lg-6">
+                            <span class="ti-home gradient-fill ti-4x mr-3"></span>
+                            <h4 class="mt-3">Business looking for office space?</h4>
+                            <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices are already designed, branded, furnished, and tech-enabled.</p>
+                            <p class=""><a href="tenants.html" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Tenant Solutions</a></p>
                         </div>
-                        <div class="tab-pane fade" id="thespace">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <div>
-                                    <p class="lead">Do you own the property?</p>
-                                    <p>Airspace does not own the properties. We act as a design and management service to pre-screened and hand-selected spaces that provide high value to our tenants.
-                                    </p>
-                                    <br>
-                                    <p class="lead">How long will it take for us to move in?</p>
-                                    <p>After the consultation, we begin working on finding the perfect space and other organizations that will create space synergy. Depending on the space that is chosen, an existing Airspace office can be moved into almost immediately as available while other locations can take 2-3 months.
-                                    </p>
-                                    <p class="lead">Can you build conference rooms if we need more?</p>
-                                    <p>Yes!  We are experts in space management and because our designs are modular, the space can be altered as your needs change.
-                                    </p>
-                                </div>
-                                <!-- <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0"> -->
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="owners">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <!-- <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0"> -->
-                                <div>
-                                        <p class="lead">How do I know if my building is a good fit for Airspace?</p>
-                                        <p>We don't have a one-size-fits-all mentality: our portfolio is comprised of many different types of properties and workspaces. Send us your building information and we'll get back to you ASAP.
-                                        </p>
-                                        <br>
-                                        <p class="lead">Do you have a broker representing you? Can I?</p>
-                                        <p>We are always open to developing strategic partnerships and opportunities. Tell us more about the property you have in mind.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="brokers">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <div>
-                                        <p class="lead">How does Airspace work with brokers - aren't they doing the same thing?</p>
-                                        <p>Airspace relies on brokers to help their clients understand the value proposition of flexible terms, and determine if Airspace is an ideal option for their needs. From there, we're with you every step of the way, and you can rely on our infrastructure to help you delight your clients. Consider us your strategic partner. 
-                                        </p>
-                                        <br>
-                                        <p class="lead">Can I tour my client tomorrow?</p>
-                                        <p>We'd love the opportunity to make an impression on your client tomorrow. The first step of our process is to have a conversation with you and learn how your client's needs can be uniquely satisfied by Airspace. If you are in a time crunch, not to worry, our deal cycles are often accelerated and take merely weeks.
-                                        </p>
-                                        <br>
-                                        <p class="lead">Do you pay commission?</p>
-                                        <p>Yes. Review our commission structure  here.
-                                        </p>
-                                        <br>
-                                        <p class="lead">Do you only do short-term agreements?</p>
-                                        <p>Though we tend to focus on short-term agreements, we are open to longer term agreements as well. We also include an additional broker commission upon renewal, regardless of the agreement length.
-                                        </p>
-                                </div>
-                                <!-- <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0"> -->
-                            </div>
+                        <div class="col-12 col-lg-6">
+                            <span class="ti-crown gradient-fill ti-4x mr-3"></span>
+                            <h4 class="mt-3">Landlord with office space property?</h4>
+                            <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices are already designed, branded, furnished, and tech-enabled.</p>
+                            <p class=""><a href="owners.html" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Landlord Solutions</a></p>
                         </div>
                     </div>
-        
-        
                 </div>
             </div>
 
-            <div class="row mt-5 mb-5" id="contact-us">
-                <div class="col-lg-3">
-                </div>
-                            <div class="col-lg-6">
-                                <div class="section-title">
-                                    <span class="ti-comment gradient-fill ti-2x"></span>
-                                    <br>
-                                    <small>Contact Us</small>
-                                    <h3>Drop Us a Note</h3>
-                                </div>
-            
-                                <div class="form-group row">
-                                    <div class="col-6">
-                                        <label for="first-name-input">Name</label>
-                                        <input class="form-control" type="text" placeholder="Willie Nelson" id="first-name-input">
-                                    </div>
-                                    <div class="col-6">
-                                        <label for="last-name-input">Company</label>
-                                        <input class="form-control" type="text" placeholder="Nelson Music Co." id="last-name-input">
-                                    </div>
-                                </div>
-            
-                                <div class="form-group row">
-                                        <div class="col-6">
-                                            <label for="email-input">Email Address</label>
-                                            <input class="form-control" type="email" placeholder="willie.nelson@yourcompany.com" id="email-input">
-                                        </div>
-                                        <div class="col-6">
-                                            <label for="phone-input">Phone Number</label>
-                                            <input class="form-control" type="tel" placeholder="xxx-xxx-xxxx" id="phone-input">
-                                        </div>
-                                </div>
-                                <div class="form-group row">
-                                        <div class="col-12">
-                                            <label for="comments-input">Message</label>
-                                            <textarea class="form-control" id="comments-input" rows="3" placeholder="How can we help you?"></textarea>
-                                        </div>
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-5">
-                                    </div>
-                                    <div class="col-2">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
-                                    <div class="col-5">
-                                    </div>
-                                </div>
-                            </div>
-            
-                <div class="col-lg-3">
-                </div>
-            </div>
-
-            <div class="form-popup" id="consultForm">
-                    <div class=" row mt-5 mb-5">
-                            <div class="col-lg-1">
-                            </div>
-            
-                            <div class="col-lg-10">
-                                <div class="section-title mt-2">
-                                    <button style=" color: #000000 !important;" type="button" class="close" onclick="closeForm()">×</button>
-                                    <span class="ti-pencil-alt gradient-fill ti-2x mx-2"></span>
-                                    <br>
-                                    <h3>Consultation Request</h3>
-                                </div>
-            
-                                <div class="form-group row">
-                                    <div class="col-6">
-                                        <label for="first-name-input">Name</label>
-                                        <input class="form-control" type="text" placeholder="Willie Nelson" id="first-name-input">
-                                    </div>
-                                    <div class="col-6">
-                                        <label for="last-name-input">Company</label>
-                                        <input class="form-control" type="text" placeholder="Willie Nelson Co." id="last-name-input">
-                                    </div>
-                                </div>
-            
-                                <div class="form-group row">
-                                        <div class="col-6">
-                                            <label for="email-input">Email Address</label>
-                                            <input class="form-control" type="email" placeholder="willie.Nelson@yourcompany.com" id="email-input">
-                                        </div>
-                                        <div class="col-6">
-                                            <label for="phone-input">Phone Number</label>
-                                            <input class="form-control" type="tel" placeholder="xxx-xxx-xxxx" id="phone-input">
-                                        </div>
-                                </div>
-                                <div class="form-group row">
-                                        <div class="col-6">
-                                                <label for="company-name-input">City</label>
-                                                <input class="form-control" type="text" placeholder="Chicago" id="company-name-input">
-                                            </div>
-                                            <div class="col-6">
-                                                <label for="team-size-input">Team Size</label>
-                                                <input class="form-control" type="number" placeholder="Number of seats" id="team-size-input">
-                                            </div>
-                                </div>
-                                <div class="form-group row">
-                                        <div class="col-9">
-                                        </div>
-                                        <div class="col-3">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                        </div>
-                                        <!-- <div class="col-4">
-                                        </div> -->
-                                    </div>
-                            </div>
-            
-                            <div class="col-lg-1">
-                            </div>
-            
+    
+        <footer class="">
+                <div class="light-bg py-5" id="contact">
+                    <div class="row">
+                        <div class="text-center col-lg-3">
+                                <img class="circle-logo" src="images/circle-logo.png">    
                         </div>
-            </div>
-
-    <!-- <div class="section">
-        <div class="container">
-            <div class="section-title">
-                <small>TESTIMONIALS</small>
-                <h3>What our Customers Says</h3>
-            </div>
-
-            <div class="testimonials owl-carousel">
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
+            
+                        <div class="col-lg-2">
+                                <div style="text-align: left;">
+                                        <p style="color: black;"class="mb-3"><b>Important</b></p>
+                                        <div style="display: flex; flex-direction:column;">
+                                            <a href="#" class="my-1">About</a>
+                                            <a href="#" class="my-1">Owners</a>
+                                            <a href="#faqs" class="my-1">FAQS</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-2">
+                                <div style="text-align: left;">
+                                        <p style="color: black;"class="mb-3"><b>Other</b></p>
+                                        <div style="display: flex; flex-direction:column;">
+                                            <!-- <a href="#" class="my-1">Press</a> -->
+                                            <a href="#" class="my-1">Terms</a>
+                                            <a href="#" class="my-1">Privacy</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-3">
+                                <div style="text-align: left;">
+                                        <p style="color: black;"class="mb-3"><b>Contact Us</b></p>
+                                        <!-- <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p> -->
+                                        <div class=" d-block d-sm-inline-block">
+                                            <p class="mb-2">
+                                                <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com">support@mobileapp.com</a>
+                                            </p>
+                                            <p class="mb-0">
+                                                    <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
+                                                </p>
+                                        </div>
+                                </div>
+                                <br>
+                                <div class="social-icons">
+                                    <a href="#"><span class="ti-facebook"></span></a>
+                                    <a href="#"><span class="ti-twitter-alt"></span></a>
+                                    <a href="#"><span class="ti-instagram"></span></a>
+                                </div>
+                        </div>
+                        <div class="col-lg-2">
+                        <div>
+                    </div>
+                    </div>
+                    <p class="mt-3 text-center"><small>COPYRIGHT © 2017.</a></small></p> 
+                                <p><small>ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>          
                 </div>
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
-                </div>
-                <div class="testimonials-single">
-                    <img src="images/client.png" alt="client" class="client-img">
-                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
-                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
-                    <p class="text-primary">United States</p>
-                </div>
-            </div>
+            
+                </footer>
 
-        </div>
-
-    </div> -->
-    <!-- // end .section -->
-
-
-    <!-- <div class="section light-bg" id="gallery">
-        <div class="container">
-            <div class="section-title">
-                <small>GALLERY</small>
-                <h3>App Screenshots</h3>
-            </div>
-
-            <div class="img-gallery owl-carousel owl-theme">
-                <img src="images/screen1.jpg" alt="image">
-                <img src="images/screen2.jpg" alt="image">
-                <img src="images/screen3.jpg" alt="image">
-                <img src="images/screen1.jpg" alt="image">
-            </div>
-
-        </div>
-
-    </div> -->
-    <!-- // end .section -->
-    <!-- // end .section -->
-
-    <footer class="my-5">
-
-    <div class="light-bg py-5" id="contact">
-        <div class="row">
-            <div class="text-center col-lg-3">
-                    <img class="circle-logo" src="images/circle-logo.png">    
-            </div>
-
-            <div class="col-lg-2">
-                    <div style="text-align: left;">
-                            <p style="color: black;"class="mb-3"><b>Important</b></p>
-                            <div style="display: flex; flex-direction:column;">
-                                <a href="#" class="my-1">About</a>
-                                <a href="#" class="my-1">Owners</a>
-                                <a href="#faqs" class="my-1">FAQS</a>
-                            </div>
-                    </div>
-            </div>
-            <div class="col-lg-2">
-                    <div style="text-align: left;">
-                            <p style="color: black;"class="mb-3"><b>Other</b></p>
-                            <div style="display: flex; flex-direction:column;">
-                                <!-- <a href="#" class="my-1">Press</a> -->
-                                <a href="#" class="my-1">Terms</a>
-                                <a href="#" class="my-1">Privacy</a>
-                            </div>
-                    </div>
-            </div>
-            <div class="col-lg-3">
-                    <div style="text-align: left;">
-                            <p style="color: black;"class="mb-3"><b>Contact Us</b></p>
-                            <!-- <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p> -->
-                            <div class=" d-block d-sm-inline-block">
-                                <p class="mb-2">
-                                    <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com">support@mobileapp.com</a>
-                                </p>
-                                <p class="mb-0">
-                                        <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a>
-                                    </p>
-                            </div>
-                    </div>
-                    <br>
-                    <div class="social-icons">
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter-alt"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
-                    </div>
-            </div>
-            <div class="col-lg-2">
-            <div>
-        </div>
-        </div>
-        <p class="mt-3 text-center"><small>COPYRIGHT © 2017.</a></small></p> 
-                    <p><small>ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>          
-    </div>
-
-    </footer>
 
     <!-- jQuery and Bootstrap -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -743,7 +203,7 @@ URI     : https://colorlib.com
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-
+    
 </body>
 
 </html>

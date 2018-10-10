@@ -291,7 +291,7 @@ header {
 .hero-container-med { 
     position: relative;
     overflow: hidden;
-    max-height: 60vh;
+    max-height: 50vh;
 }
 
 .circle-logo { 
@@ -354,14 +354,13 @@ img#myImage {
     color: #fff;
     font-weight: 20px;
     font-size: 60px;
-    margin: 0 auto
   }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
     color: #FFF;
-    text-align: center;
+    text-align: left;
     text-emphasis: bold;
 }
 
