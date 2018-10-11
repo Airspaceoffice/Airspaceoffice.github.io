@@ -33,7 +33,7 @@ Copyright © All rights Reserved
 
 body {
     font-family: 'Avenir Next', sans-serif;
-    position: relative;
+    position: relative; 
 }
 
 a {
@@ -90,7 +90,6 @@ p.center {
 p.lead {
     color: #000000;
     margin-bottom: 0rem;
-    /* margin-bottom: 2rem; */
 }
 
 .text-primary {
@@ -291,7 +290,25 @@ header {
 .hero-container-full { 
     position: relative;
     overflow: hidden;
-    max-height: 99vh;
+    max-height: 90vh;
+}
+
+@media (max-width:480px) {
+    .hero-container-full { 
+        height: 120vh
+    }    
+}
+
+@media (max-width:380px) {
+    .hero-container-full { 
+        height: 130vh
+    }    
+}
+
+@media (max-width:350px) {
+    .hero-container-full { 
+        height: 170vh
+    }    
 }
 
 .hero-container-med { 
@@ -345,6 +362,12 @@ img#myImage {
     filter: brightness(0.7);
 }
 
+.team-photo { 
+    height: 300px; 
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
 
 .overlay-text-home { 
     background: rgba(0,0,0,0);
@@ -355,6 +378,13 @@ img#myImage {
     align-items: center;
     overflow: hidden;
     margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (max-width:991px) {
+    .overlay-text-home { 
+        top: 10%; right: 0; bottom: 0; left: 0 !important;
+    }    
 }
 
 .overlay-text { 
@@ -375,6 +405,13 @@ img#myImage {
     font-size: 60px;
   }
 
+  @media (max-width:991px) {
+   .headline { 
+        font-weight: 13px;
+        font-size: 40px;
+   }     
+  }
+
 .tagline {
     font-size: 23px;
     font-weight: 300;
@@ -389,6 +426,13 @@ img#myImage {
     color: #FFF;
     text-align: left;
     text-emphasis: bold;
+}
+
+@media (max-width:350px) {
+    .tagline2 { 
+        font-size: 14px;
+
+    }    
 }
 
 .img-holder {
@@ -714,6 +758,15 @@ img#myImage {
 
 /*  FOOTER
 ----------------------*/
+
+.footer-col { 
+    text-align: left; 
+}
+@media (max-width:991px) {
+    .footer-col { 
+        text-align: center; 
+    }
+}
 
 .social-icons {
     text-align: left;

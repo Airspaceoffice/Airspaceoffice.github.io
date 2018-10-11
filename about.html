@@ -30,149 +30,160 @@ URI     : https://colorlib.com
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="images/circle-logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/circle-logo.png" />
 
     <!-- Start of Async Drift Code -->
     <script>
         "use strict";
-        
-        !function() {
-          var t = window.driftt = window.drift = window.driftt || [];
-          if (!t.init) {
-            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-            t.factory = function(e) {
-              return function() {
-                var n = Array.prototype.slice.call(arguments);
-                return n.unshift(e), t.push(n), t;
-              };
-            }, t.methods.forEach(function(e) {
-              t[e] = t.factory(e);
-            }), t.load = function(t) {
-              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-              var i = document.getElementsByTagName("script")[0];
-              i.parentNode.insertBefore(o, i);
-            };
-          }
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
         }();
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('64h28b67tdad');
-        </script>
-        <!-- End of Async Drift Code -->
+    </script>
+    <!-- End of Async Drift Code -->
 
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
-
-        <div class="hero-container-med">
-           <img id="myImage" src="images/owners-hero.jpg">
-           <div class="overlay-text">
-                <div class="headline">about page</div>  
-                <p class="tagline">tagline</p>
-           </div>
-       </div>
-
-       <div class="section white-bg" id="features">
-            <div class="section-title">
-               <h3>WHO WE ARE</h3>
-            </div>
+    <!-- Nav Menu -->
+    <div class="nav-menu fixed-top">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="nav-logo" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SOLUTIONS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="tenants.html">For Businesses</a>
+                                        <a class="dropdown-item" href="owners.html">For Landlords</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT</a> </li>
+                                <li class="nav-item lightbox-82797864536173"><a href="#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact
+                                        Us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-                <div class="col-md-4">
-                   <p class="center">Airspace is transforming the office market with its flexible real estate solution for businesses, called Agile HQs. Agile HQs are an owner-friendly, business-driven real estate solution that is revolutionizing the way companies rent office space.</p>
-               </div>
-               <div class="col-md-4">
-               </div>
-           </div>
-       </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-container-med">
+        <img id="myImage" src="images/about-hero.jpg">
+        <div class="overlay-text">
+            <div class="headline">About Us</div>
+        </div>
+    </div>
 
-       <div class="section light-bg" id="features">
-            <div class="container">
-                <div class="section-title">
-                    <h3>Values</h3>
+    <div class="section white-bg" id="features">
+        <div class="section-title">
+            <h3>Who We Are</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <p class="center">Airspace is transforming the office market with its flexible real estate solution for
+                    businesses, called Agile HQs. Agile HQs are an owner-friendly, business-driven real estate solution
+                    that is revolutionizing the way companies rent office space.</p>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+
+    <div class="section light-bg" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h3>Our Values</h3>
+            </div>
+            <div class="row text-center mb-5">
+                <div class="col-12 col-lg-4">
+                    <span class="ti-layout-slider gradient-fill ti-4x mr-3"></span>
+                    <h4 class="mt-3">Future-Proof Your Assets</h4>
+                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                        are already designed, branded, furnished, and tech-enabled.</p>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Vacancy Elimination</h4>
-                                        <p class="card-text">We are experts at absorbing vacant space and maintaining occupancy. Our demand for office space increases as we continue to add members, and you share in that upside.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-settings gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Reduced Capital Spend</h4>
-                                        <p class="card-text">Thanks to our economies of scale, we spend less than what a traditional buildout would cost you in overhead. Airspace's buildouts add value to your building, and take just weeks to make move-in ready.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-lock gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Great Tenants</h4>
-                                        <p class="card-text">We work with emerging and established companies. Our tenants are respectful and responsible, and our companies range in size from 50 to 300 employees.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <span class="ti-bar-chart gradient-fill ti-4x mr-3"></span>
+                    <h4 class="mt-3">Deliver Higher Upside</h4>
+                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                        are already designed, branded, furnished, and tech-enabled.</p>
                 </div>
-                <div class="row mt-3">
-                        <div class="col-12 col-lg-2">
-                        </div>
-                        <div class="col-12 col-lg-4">
-                            <div class="card features">
-                                <div class="card-body">
-                                    <div class="media">
-                                        <span class="ti-lock gradient-fill ti-3x mr-3"></span>
-                                        <div class="media-body">
-                                            <h4 class="card-title">Increase Property Value</h4>
-                                            <p class="card-text">Every Airspace property has open floor layouts and lightweight, repurposable buildouts, adding value to the building while keeping wear-and-tear minimal.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="col-12 col-lg-4">
-                        <div class="card features">
-                            <div class="card-body">
-                                <div class="media">
-                                    <span class="ti-lock gradient-fill ti-3x mr-3"></span>
-                                    <div class="media-body">
-                                        <h4 class="card-title">Flexible Partnership Opportunities</h4>
-                                        <p class="card-text">Our portfolio expansion is fueled by not having a “one-size-fits-all” mentality. We’ll work with you to establish a partnership that best suits your business needs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-2">
-                    </div>
+                <div class="col-12 col-lg-4">
+                    <span class="ti-loop gradient-fill ti-4x mr-3"></span>
+                    <h4 class="mt-3">Enable a Full Service Experience</h4>
+                    <p class="mt-2">Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                        are already designed, branded, furnished, and tech-enabled.</p>
                 </div>
+            </div>
         </div>
 
         <div class="section white-bg" id="features">
-                <div class="section-title">
-                   <h3>TEAM</h3>
+            <div class="section-title">
+                <h3>Our Team</h3>
+            </div>
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12 col-lg-3 text-center">
+                        <img class="team-photo" src="images/team/soheil.jpg">
+                        <h3 class="mt-3">Soheil Ebadat</h3>
+                        <h4 class="mt-3">Position</h4>
+                        <p>Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                            are already designed, branded, furnished, and tech-enabled.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 text-center">
+                        <img class="team-photo" src="images/team/justin.jpg">
+                        <h3 class="mt-3">Justin Kelley</h3>
+                        <h4 class="mt-3">Position</h4>
+                        <p>Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                            are already designed, branded, furnished, and tech-enabled.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 text-center">
+                        <img class="team-photo" src="images/team/aditya.jpg">
+                        <h3 class="mt-3">Aditya Gunda</h3>
+                        <h4 class="mt-3">Position</h4>
+                        <p>Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                            are already designed, branded, furnished, and tech-enabled.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 text-center">
+                        <img class="team-photo" src="images/team/soheil.jpg">
+                        <h3 class="mt-3">Chris DiMurro</h3>
+                        <h4 class="mt-3">Position</h4>
+                        <p>Our offices are already designed, branded, furnished, and tech-enabled. Our offices
+                            are already designed, branded, furnished, and tech-enabled.</p>
+                    </div>
                 </div>
+            </div>
         </div>
-
 </body>
+
 </html>
