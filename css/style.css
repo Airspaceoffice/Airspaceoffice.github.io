@@ -288,6 +288,12 @@ header {
     max-height: 70vh;
 }
 
+.hero-container-full { 
+    position: relative;
+    overflow: hidden;
+    max-height: 99vh;
+}
+
 .hero-container-med { 
     position: relative;
     overflow: hidden;
@@ -339,14 +345,15 @@ img#myImage {
     filter: brightness(0.7);
 }
 
-
 .overlay-text { 
     background: rgba(0,0,0,0);
     position: absolute;
-    top: 30%; right: 0; bottom: 0; left: 0;
+    top: 20%; right: 0; bottom: 0; left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .headline {
@@ -358,6 +365,14 @@ img#myImage {
 
 .tagline {
     font-size: 23px;
+    font-weight: 300;
+    color: #FFF;
+    text-align: center;
+    text-emphasis: bold;
+}
+
+.tagline2 {
+    font-size: 17px;
     font-weight: 300;
     color: #FFF;
     text-align: left;
@@ -601,6 +616,10 @@ img#myImage {
     background: #FFF; 
     border-top-width: 3px;
     border-color: rgb(240, 124, 148) #faf6fb #FFF;
+    color: rgb(240, 124, 148);
+}
+
+.dropdown-item:hover { 
     color: rgb(240, 124, 148);
 }
 

@@ -74,10 +74,17 @@ URI     : https://colorlib.com
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link" href="#faqs">FAQS</a> </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              SOLUTIONS
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item" href="tenants.html">For Businesses</a>
+                                              <a class="dropdown-item" href="owners.html">For Landlords</a>
+                                        </div>
+                                </li>
                                 <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="owners.html">OWNERS</a> </li>
-                                <li class="nav-item lightbox-82797864536173"><a href="javascript:openForm()" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request A Consultation</a></li>
+                                <li class="nav-item lightbox-82797864536173"><a href="#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -86,12 +93,12 @@ URI     : https://colorlib.com
         </div>
     </div>  
 
-    <div class="hero-container-med">
+    <div class="hero-container-full">
             <video autoplay muted loop id="myVideo">
                 <source src="images/background-video.mp4" type="video/mp4">
             </video>
                     <div class="overlay-text">
-                            <div class="headline">the future of office space is
+                            <div class="headline text-left">Airspace is 
                                 <div class="rw-words">
                                    <span>on flexible terms.</span> 
                                    <span>designed &amp; furnished.</span>
@@ -104,8 +111,28 @@ URI     : https://colorlib.com
                            <br>
                            <br>
                            <br>
-                           <p class="tagline text-left">Airspace design, builds, and operates <br> fully-equipped and serviced office spaces on flexible terms.</p>
-                       </div>
+                           <!-- <p class="tagline text-left">Airspace designs, builds, and operates <br> fully-equipped and serviced office spaces on flexible terms.</p> -->
+                        <hr>
+                           <div class="container mt-3">
+                                <div class="row text-center">
+                                    <div class="col-12 col-lg-6">
+                                        <span style="color: white;" class="ti-home ti-4x mr-3"></span>
+                                        <p class="tagline text-center mt-3">Business looking for office space?</p>
+                                        <p class="tagline2 text-center mt-3">Airspace offers fully-equipped & serviced office spaces on flexible terms.</p>
+                                        <p class=""><a href="tenants.html" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Tenant Solutions</a></p>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <span style="color: white;" class="ti-crown ti-4x mr-3"></span>
+                                        <p class="tagline text-center mt-3">Landlord with office space property?</p>
+                                        <p class="tagline2 text-center mt-3">Airspace partners with landlords to design and service their office spaces 
+                                                for forward-thinking organizations.</p>
+                                        <p class=""><a href="owners.html" class="btn btn-outline-light ctaHero btn-lg my-3 my-sm-0 ml-lg-3">Landlord Solutions</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
         </div>
 
         <!-- <div class="section white-bg">
@@ -114,7 +141,7 @@ URI     : https://colorlib.com
             </div>
         </div> -->
 
-        <div class="section light-bg" id="features">
+        <!-- <div class="section light-bg" id="features">
                 <div class="container">
                     <div class="section-title">
                         <h3>Our Solutions</h3>
@@ -135,11 +162,64 @@ URI     : https://colorlib.com
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <div class="row mt-5 mb-5" id="contact-us">
+                    <div class="col-lg-3">
+                    </div>
+                                <div class="col-lg-6">
+                                    <div class="section-title">
+                                        <span class="ti-comment gradient-fill ti-2x"></span>
+                                        <br>
+                                        <small>Contact Us</small>
+                                        <h3>Drop Us a Note</h3>
+                                    </div>
+                
+                                    <div class="form-group row">
+                                        <div class="col-6">
+                                            <label for="first-name-input">Name</label>
+                                            <input class="form-control" type="text" placeholder="Willie Nelson" id="first-name-input">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="last-name-input">Company</label>
+                                            <input class="form-control" type="text" placeholder="Nelson Music Co." id="last-name-input">
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-group row">
+                                            <div class="col-6">
+                                                <label for="email-input">Email Address</label>
+                                                <input class="form-control" type="email" placeholder="willie.nelson@yourcompany.com" id="email-input">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="phone-input">Phone Number</label>
+                                                <input class="form-control" type="tel" placeholder="xxx-xxx-xxxx" id="phone-input">
+                                            </div>
+                                    </div>
+                                    <div class="form-group row">
+                                            <div class="col-12">
+                                                <label for="comments-input">Message</label>
+                                                <textarea class="form-control" id="comments-input" rows="3" placeholder="How can we help you?"></textarea>
+                                            </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-5">
+                                        </div>
+                                        <div class="col-2">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                        <div class="col-5">
+                                        </div>
+                                    </div>
+                                </div>
+                
+                    <div class="col-lg-3">
+                    </div>
+                </div>
 
     
         <footer class="">
-                <div class="light-bg py-5" id="contact">
+                <div class="light-bg" id="contact">
                     <div class="row">
                         <div class="text-center col-lg-3">
                                 <img class="circle-logo" src="images/circle-logo.png">    
@@ -192,7 +272,7 @@ URI     : https://colorlib.com
                     <p class="mt-3 text-center"><small>COPYRIGHT © 2017.</a></small></p> 
                                 <p><small>ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>          
                 </div>
-            
+
                 </footer>
 
 
