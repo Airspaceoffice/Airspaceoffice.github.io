@@ -76,14 +76,15 @@ URI     : https://colorlib.com
                         </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              SOLUTIONS
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                             <a class="dropdown-item" href="business-solutions.html">For Businesses</a>
-                                              <a class="dropdown-item" href="landlord-solutions.html">For Landlords</a>
-                                        </div>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SOLUTIONS
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="business-solutions.html">For Businesses</a>
+                                        <a class="dropdown-item" href="landlord-solutions.html">For Landlords</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link" href="about.html">ABOUT</a> </li>
                                 <li class="nav-item lightbox-82797864536173"><a href="#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact
@@ -112,19 +113,21 @@ URI     : https://colorlib.com
             </div>
             <!-- <p class="tagline text-center">Airspace designs, builds, and operates <br> fully-equipped and serviced
                 office spaces on flexible terms.</p> -->
-            <div class="container mt-xs-1 mt-lg-5">
+            <div class="container mt-xs-1 mt-5">
                 <div class="row text-center">
                     <div class="col-12 col-lg-6">
                         <span style="color: white;" class="ti-home ti-3x mr-3"></span>
                         <p class="tagline text-center mt-lg-3"><b>Business looking for office space?</b></p>
-                        <p class="tagline2 text-center mt-lg-3">Airspace offers turn-key, serviced office spaces on flexible terms.</p>
+                        <p class="tagline2 text-center mt-lg-3">Airspace offers turn-key, serviced office spaces on
+                            flexible terms.</p>
                         <p class=""><a href="business-solutions.html" class="btn btn-outline-light ctaHero btn-md my-lg-3">Business
                                 Solutions</a></p>
                     </div>
                     <div class="col-12 col-lg-6">
                         <span style="color: white;" class="ti-crown ti-3x mr-3"></span>
                         <p class="tagline text-center mt-lg-3"><b>Landlord with commercial office space?</b></p>
-                        <p class="tagline2 text-center mt-lg-3">Airspace offers landlords design, management, and tech solutions.</p>
+                        <p class="tagline2 text-center mt-lg-3">Airspace offers landlords design, management, and tech
+                            solutions.</p>
                         <p class=""><a href="landlord-solutions.html" class="btn btn-outline-light ctaHero btn-md my-lg-3">Landlord
                                 Solutions</a></p>
                     </div>
@@ -139,61 +142,78 @@ URI     : https://colorlib.com
         </div>
     </div>
 
-    <div class="row mx-3 pt-5" id="contact-us">
-        <div class="col-lg-3">
+    <form id="contact-us">
+        <div class="row mx-3 pt-5">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <span class="ti-comment gradient-fill ti-2x"></span>
+                    <br>
+                    <small>Contact Us</small>
+                    <h3>Drop Us a Note</h3>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="first-name-input">Name</label>
+                        <input class="form-control" type="text" placeholder="Willie Nelson" id="first-name-input" name="name">
+                    </div>
+                    <div class="col-6">
+                        <label for="last-name-input">Company</label>
+                        <input class="form-control" type="text" placeholder="Nelson Music Co." id="last-name-input" name="company-name">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-6">
+                        <label for="email-input">Email Address</label>
+                        <input class="form-control" type="email" placeholder="willie.nelson@yourcompany.com" id="email-input"
+                            name="email-address">
+                    </div>
+                    <div class="col-6">
+                        <label for="phone-input">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="xxx-xxx-xxxx" id="phone-input" name="phone-number">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-12">
+                        <label for="message-input">Message</label>
+                        <textarea class="form-control" id="message-input" rows="3" placeholder="How can we help you?" name="message"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-5">
+                    </div>
+                    <div class="col-2">
+                        <button type="submit" class="btn btn-primary" id="submit-contact-form">Submit</button>
+                    </div>
+                    <div class="col-5">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+            </div>
         </div>
-        <div class="col-lg-6">
-            <div class="section-title">
-                <span class="ti-comment gradient-fill ti-2x"></span>
-                <br>
-                <small>Contact Us</small>
-                <h3>Drop Us a Note</h3>
-            </div>
+    </form>
 
-            <div class="form-group row">
-                <div class="col-6">
-                    <label for="first-name-input">Name</label>
-                    <input class="form-control" type="text" placeholder="Willie Nelson" id="first-name-input">
-                </div>
-                <div class="col-6">
-                    <label for="last-name-input">Company</label>
-                    <input class="form-control" type="text" placeholder="Nelson Music Co." id="last-name-input">
-                </div>
-            </div>
+    <script>
+        var $form = $('form#contact-us'), url = 'https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2rAXkSqBOF5uJjuy9q8sMLM8NwxQRgtMo1oX2O5Qy0FZ2pg/formResponse';
 
-            <div class="form-group row">
-                <div class="col-6">
-                    <label for="email-input">Email Address</label>
-                    <input class="form-control" type="email" placeholder="willie.nelson@yourcompany.com" id="email-input">
-                </div>
-                <div class="col-6">
-                    <label for="phone-input">Phone Number</label>
-                    <input class="form-control" type="tel" placeholder="xxx-xxx-xxxx" id="phone-input">
-                </div>
-            </div>
-
-            <div class="form-group row">
-                <div class="col-12">
-                    <label for="comments-input">Message</label>
-                    <textarea class="form-control" id="comments-input" rows="3" placeholder="How can we help you?"></textarea>
-                </div>
-            </div>
-
-            <div class="form-group row">
-                <div class="col-5">
-                </div>
-                <div class="col-2">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-                <div class="col-5">
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3">
-        </div>
-    </div>
-    <br></br>
-     <br></br>
+            $('#submit-contact-form').on('click', function (e) {
+                e.preventDefault();
+                var jqxhr = $.ajax({
+                    url: url,
+                    method: "GET",
+                    dataType: "json",
+                    data: $form.serializeObject()
+                }).success(
+                    // do something
+                );
+            })
+    </script>
 
     <footer class="light-bg">
         <div class="row pt-5">
@@ -228,7 +248,7 @@ URI     : https://colorlib.com
                 </div>
                 <br>
                 <div class="social-icons mt-3">
-                     <a href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>
+                    <a href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>
                     <a href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>
                 </div>
             </div>
