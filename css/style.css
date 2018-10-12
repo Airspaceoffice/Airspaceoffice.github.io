@@ -340,7 +340,7 @@ video#myVideo {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     opacity: 1.0;
-    filter: brightness(0.7);
+    filter: brightness(0.6);
 }
 
 img#myImage {
@@ -359,7 +359,7 @@ img#myImage {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     opacity: 1.0;
-    filter: brightness(0.7);
+    filter: brightness(0.5);
 }
 
 .team-photo { 
@@ -390,7 +390,7 @@ img#myImage {
 .overlay-text { 
     background: rgba(0,0,0,0);
     position: absolute;
-    top: 30%; right: 0; bottom: 0; left: 0;
+    top: 35%; right: 0; bottom: 0; left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
