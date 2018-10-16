@@ -291,24 +291,24 @@ header {
 .hero-container-full { 
     position: relative;
     overflow: hidden;
-    max-height: 90vh;
+    /* max-height: 90vh; */
 }
 
 @media (max-width:480px) {
     .hero-container-full { 
-        max-height: 120vh !important;
+        max-height: 95vh !important;
     }    
 }
 
 @media (max-width:380px) {
     .hero-container-full { 
-        max-height: 150vh !important;
+        max-height: 100vh !important;
     }    
 }
 
 @media (max-width:350px) {
     .hero-container-full { 
-        max-height: 170vh !important;
+        max-height: 120 !important;
     }    
 }
 
