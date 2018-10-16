@@ -296,13 +296,19 @@ header {
 
 @media (max-width:480px) {
     .hero-container-full { 
-        max-height: 95vh !important;
+        max-height: 100vh !important;
     }    
 }
 
 @media (max-width:380px) {
     .hero-container-full { 
         max-height: 130vh !important;
+    }    
+}
+
+@media (max-width:330px) {
+    .hero-container-full { 
+        max-height: 140vh !important;
     }    
 }
 
