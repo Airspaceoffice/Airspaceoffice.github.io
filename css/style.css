@@ -382,6 +382,7 @@ img#myImage {
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    height: 100%;
 }
 @media (max-width:991px) {
     .overlay-text-home { 
