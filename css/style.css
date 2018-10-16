@@ -291,7 +291,7 @@ header {
 .hero-container-full { 
     position: relative;
     overflow: hidden;
-    /* max-height: 90vh; */
+    max-height: 90vh;
 }
 
 @media (max-width:480px) {
