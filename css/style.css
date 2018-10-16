@@ -302,7 +302,7 @@ header {
 
 @media (max-width:380px) {
     .hero-container-full { 
-        height: 130vh
+        height: 150vh
     }    
 }
 
@@ -518,6 +518,16 @@ img#myImage {
     100% {
         opacity: 0
     }
+}
+
+.col-lg-12 { 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row { 
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* FEATURES
