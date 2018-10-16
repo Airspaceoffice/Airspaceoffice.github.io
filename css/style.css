@@ -34,6 +34,7 @@ Copyright © All rights Reserved
 body {
     font-family: 'Avenir Next', sans-serif;
     position: relative; 
+    overflow-x:hidden;
 }
 
 a {
