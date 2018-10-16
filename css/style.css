@@ -302,13 +302,7 @@ header {
 
 @media (max-width:380px) {
     .hero-container-full { 
-        max-height: 100vh !important;
-    }    
-}
-
-@media (max-width:350px) {
-    .hero-container-full { 
-        max-height: 120 !important;
+        max-height: 130vh !important;
     }    
 }
 
