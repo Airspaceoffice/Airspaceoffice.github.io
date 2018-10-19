@@ -1,33 +1,5 @@
 @charset "UTF-8";
 
-/*
-
-Style   : MobApp CSS
-Version : 1.0
-Author  : Surjith S M
-URI     : https://surjithctly.in/
-
-Copyright © All rights Reserved 
-
-*/
-
-
-/*------------------------
-[TABLE OF CONTENTS]
-    
-1. GLOBAL STYLES
-2. NAVBAR
-3. HERO
-4. TABS
-5. TESTIMONIALS
-6. IMAGE GALLERY
-7. PRICING
-8. CALL TO ACTION
-9. FOOTER
-
-------------------------*/
-
-
 /* GLOBAL
 ----------------------*/
 
@@ -368,10 +340,10 @@ img#myImage {
 .overlay-text-home { 
     background: rgba(0,0,0,0);
     position: absolute;
-    top: 30%; right: 0; bottom: 0; left: 0;
+    top: 25%; right: 0; bottom: 0; left: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     overflow: hidden;
     margin: 0 auto;
     padding-left: 1rem;
@@ -403,6 +375,14 @@ img#myImage {
     font-size: 60px;
   }
 
+  
+.headline2 {
+    background: rgba(0,0,0,0);
+    color: #fff;
+    font-weight: 20px;
+    font-size: 40px;
+  }
+
   @media (max-width:991px) {
    .headline { 
         font-weight: 13px;
@@ -412,14 +392,15 @@ img#myImage {
 
 .tagline {
     font-size: 23px;
-    font-weight: 300;
+    font-weight: 350;
     color: #FFF;
-    text-align: center;
+    /* text-decoration: underline; */
+    /* text-align: center; */
     text-emphasis: bold;
 }
 
 .tagline2 {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     color: #FFF;
     text-align: left;
@@ -454,66 +435,85 @@ img#myImage {
     }
 }
 
-.rw-words {
-    display: inline;
-    color: #fff;
+.animated-words {
+    display: inline-block;
+}
+.animated-words .nl:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+    -ms-animation-delay: 3s; 
+    animation-delay: 3s; 
+}
+.animated-words .nl:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+    -ms-animation-delay: 6s; 
+    animation-delay: 6s; 
+}
+.animated-words .nl:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+    -ms-animation-delay: 9s; 
+    animation-delay: 9s; 
+}
+.animated-words .nl:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+    -ms-animation-delay: 12s; 
+    animation-delay: 12s; 
+}
+.animated-words .last:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+    -ms-animation-delay: 15s; 
+    animation-delay: 15s; 
 }
 
-.rw-words span {
+.animated-words .nl {
     position: absolute;
     opacity: 0;
     overflow: hidden;
-    animation: changeWords 15s ease-out infinite;
+    -webkit-animation: animateWord 15s linear 1 0s;
+    -ms-animation: animateWord 15s linear 1 0s;
+    animation: animateWord 15s linear 1 0s;
 }
 
-.rw-words span:nth-child(2) {
-    animation-delay: 3s
+@-webkit-keyframes animateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+    20% { opacity: 0; -webkit-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+.animated-words .last {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-animation: animateWordLast 18s linear 1 0s;
+    -ms-animation: animateWordLast 18s linear 1 0s;
+    animation: animateWordLast 18s linear 1 0s;
+}
+@-webkit-keyframes animateWordLast {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px);}
+    100% { opacity: 1; }
 }
 
-.rw-words span:nth-child(3) {
-    animation-delay: 6s
+.animated-words .last {
+    -webkit-animation: animateWordLast 100s linear 1 18s;
+    animation: animateWordLast 100s linear 1 18s;
 }
-
-.rw-words span:nth-child(4) {
-    animation-delay: 9s
+@-webkit-keyframes animateWordLast {
+    0% { opacity: 1; }
+    100% { opacity: 1; }
 }
-
-.rw-words span:nth-child(5) {
-    animation-delay: 12s
-}
-
-@keyframes changeWords {
-    0% {
-        opacity: 0
-    }
-
-    2% {
-        opacity: 0;
-        -webkit-transform: translateY(-30px)
-    }
-
-    5% {
-        opacity: 1;
-        -webkit-transform: translateY(0px)
-    }
-
-    17% {
-        opacity: 1;
-        -webkit-transform: translateY(0px)
-    }
-
-    20% {
-        opacity: 0;
-        -webkit-transform: translateY(30px)
-    }
-
-    80% {
-        opacity: 0
-    }
-
-    100% {
-        opacity: 0
-    }
+.am1 {
+  margin-top:-63px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: white;
+  color: rgb(240, 124, 148);
 }
 
 .col-lg-12 { 
@@ -635,7 +635,6 @@ img#myImage {
     }
 }
 
-
 /*  TABS
 ----------------------*/
 
@@ -686,7 +685,6 @@ img#myImage {
 .dropdown-item:hover { 
     color: rgb(240, 124, 148);
 }
-
 
 /*  TESTIMONIALS
 ----------------------*/
@@ -750,7 +748,6 @@ img#myImage {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
-
 /*  IMAGE GALLERY
 ----------------------*/
 
@@ -800,8 +797,6 @@ img#myImage {
 .title {
     color: grey;
 }
-
-
 
 /*  FOOTER
 ----------------------*/
