@@ -787,7 +787,7 @@ img#myImage {
 
 /* Some left and right padding inside the container */
 .container {
-    padding: 8 8px;
+    padding: 0 8px;
 }
 
 /* Clear floats */
