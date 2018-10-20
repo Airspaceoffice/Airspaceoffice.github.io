@@ -110,6 +110,7 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About</a>' +
+             '<a href="./blog.html" class="my-1">Blog</a>' +
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
             '</div>' +
