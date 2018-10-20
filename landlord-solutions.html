@@ -69,8 +69,8 @@ URI     : https://colorlib.com
 
     <div class="hero-container">
         <img id="myImage" src="images/owners-hero.jpg">
-        <div class="overlay-text">
-            <div class="headline text-center">Your Space Working For You</div>
+        <div class="overlay-text text-center">
+            <div class="headline">Your Space Working For You</div>
             <p class="tagline">Landlords work with us to quickly design, create, and operate scalable<br> office spaces
                 for forward thinking companies.</p>
             <br>
@@ -342,9 +342,6 @@ URI     : https://colorlib.com
         </div>
     </div>
 
-     <!-- Hidden iframe -->
-     <iframe id="secret-frame" width="0" height="0" style="display: none;"></iframe>
-
     <div class="row mt-5 white-bg" id="partner-with-us">
         <div class="col-lg-3">
         </div>
@@ -356,8 +353,11 @@ URI     : https://colorlib.com
                 <p class="mt-3">Our typical partnership deal structure involves the design and management<br>
                     of office spaces within your commercial building.</p>
             </div>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.reload();}"></iframe>
+
             <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSddS5C8z8XCNtCPzFtv_97i1LZHJRYokySRwB-s4ZpzgwFOLw/formResponse"
-                method="POST" id="mG61Hd" target="secret-frame" onsubmit="">
+                method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="form-group row">
                     <div class="col-6">
                         <label for="first-name-input">Name</label>
@@ -414,12 +414,9 @@ URI     : https://colorlib.com
         </div>
     </div>
 
-    <!-- Script to show dialogue and reset form -->
     <script>
         document.getElementById("bp-submit").addEventListener("click", function (event) {
-            alert("Thank You For Your Interest in Becoming a Partner! We'll get back to you soon.")
-            document.getElementById("#mG61Hd").reset();
-              window.location = "landlord-solutions.html";
+            alert("Submission successful! Thank you for your interest in Airspace. We'll get back to you soon.")
         });
     </script>
 

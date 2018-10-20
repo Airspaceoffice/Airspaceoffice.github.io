@@ -41,8 +41,8 @@ URI     : https://colorlib.com
         <img id="myImage" class="darken" src="images/tenant-hero.jpg">
         <div class="overlay-text text-center">
             <div class="headline">Subscribe to your new office</div>
-            <p class="tagline"><b>Fully-equipped, serviced, and technology enabled <br> office spaces on flexible
-                    terms.</b></p>
+            <p class="tagline">Fully-equipped, serviced, and technology enabled <br> office spaces on flexible
+                    terms.</p>
             <br>
             <p class="nav-item"><a href="#consultForm" class="btn btn-outline-light ctaHero btn-md my-3 my-sm-0 ml-lg-3">Request
                     A Consultation</a></p>
@@ -479,8 +479,10 @@ URI     : https://colorlib.com
                     <br>
                     <h3>Consultation Request</h3>
                 </div>
-                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdVaua6kDi98p7F5AJwld-kPf5N09iC8sW23TrYvsTFCMCQXA/formResponse"
-                    target="_self" method="POST" id="mG61Hd" onsubmit="">
+                <script type="text/javascript">var submitted=false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.reload();}"></iframe>
+
+                <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdVaua6kDi98p7F5AJwld-kPf5N09iC8sW23TrYvsTFCMCQXA/formResponse" method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="form-group row">
                         <div class="col-6">
                             <label for="first-name-input">Name</label>
@@ -520,7 +522,7 @@ URI     : https://colorlib.com
                         <div class="col-5">
                         </div>
                         <div class="col-2">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button id="rc-submit" type="submit" class="btn btn-primary">Submit</button>
                         </div>
                         <div class="col-5">
                         </div>
@@ -531,6 +533,12 @@ URI     : https://colorlib.com
             <div class="col-lg-3">
             </div>
         </div>
+
+        <script>
+            document.getElementById("rc-submit").addEventListener("click", function (event) {
+                alert("Submission successful! Thank you for your interest in Airspace. We'll get back to you soon.")
+            });
+        </script>
     </div>
 
     <!-- Footer (loaded from script.js -->

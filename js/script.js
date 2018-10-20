@@ -12,88 +12,96 @@ Copyright © All rights Reserved
 $(function () {
     "use strict";
 
-    
+
     /*-----------------------------------
      * LOADING NAV BAR AND FOOTER
      *-----------------------------------*/
+    function addSharedNavAndFooter() {
+        if (window.location.pathname.toString() == "business-solutions.html") {
 
-    document.getElementById("navMenu").innerHTML =
-        '<div class="nav-menu fixed-top">' +
-        '<div class="container">' +
-        '<div class="row">' +
-        '<div class="col-md-12">' +
-        '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
-        '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
-        '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
-        '<div class="collapse navbar-collapse" id="navbar">' +
-        '<ul class="navbar-nav ml-auto">' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
-        '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
-        '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
-        '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
-        '</div>' +
-        '</li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
-        '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
-        '</ul>' +
-        '</div>' +
-        '</nav>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '</div>';
+        } else if (window.location.pathname.toString() == "landlord-solutions.html") {
 
-    document.getElementById("footerMenu").innerHTML =
-        '<footer class="light-bg">' +
-        '<div class="row pt-5">' +
-        '<div class="col-lg-4 text-center">' +
-        '<img class="circle-logo" src="./images/circle-logo.png">' +
-        '</div>' +
-        '<div class="col-lg-2 footer-col">' +
-        '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
-        '<div style="display: flex; flex-direction:column;">' +
-        '<a href="./about.html" class="my-1">About</a>' +
-        '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
-        '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
-        '</div>' +
-        '</div>' +
-        '<div class="col-lg-2 footer-col">' +
-        '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Legal</b></p>' +
-        '<div style="display: flex; flex-direction:column;">' +
-        '<a href="./terms.html" class="my-1">Terms</a>' +
-        '<a href="./privacy.html" class="my-1">Privacy</a>' +
-        '</div>' +
-        '</div>' +
-        '<div class="col-lg-4 footer-col">' +
-        '<p style="color: black;" class="mb-3"><b>Contact Us</b></p>' +
-        // '<p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>' +
-        '<div class=" d-block d-sm-inline-block">' +
-        '<p class="mb-2">' +
-        '<span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:info@reserveairspace.com">info@reserveairspace.com</a></span>' +
-        '</p>' +
-        '<p class="mb-0">' +
-        '<span class="ti-headphone-alt mr-2"></span> <a href="tel:3127245112">312-724-5112</a>' +
-        '</p>' +
-        '</div>' +
-        '<br>' +
-        '<div class="social-icons mt-3">' +
-        '<a href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
-        '<a href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
-        '</div>' +
-        '</div>' +
-        '<div class="col-lg-2">' +
-        '<div>' +
-        '</div>' +
-        '</div>' +
-        '</div>' +
-        '<div class="row mt-5">' +
-        '<div class="col-12 text-center">' +
-        '<p><small>COPYRIGHT © 2018. AIRSPACE. ALL RIGHTS RESERVED.</small></p>' +
-        '</div>' +
-        '</div>';
+        } else {
+            document.getElementById("navMenu").innerHTML =
+                '<div class="nav-menu fixed-top">' +
+                '<div class="container">' +
+                '<div class="row">' +
+                '<div class="col-md-12">' +
+                '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
+                '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+                '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
+                '<div class="collapse navbar-collapse" id="navbar">' +
+                '<ul class="navbar-nav ml-auto">' +
+                '<li class="nav-item dropdown">' +
+                '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
+                '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
+                '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
+                '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
+                '</div>' +
+                '</li>' +
+                '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
+                '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
+                '</ul>' +
+                '</div>' +
+                '</nav>' +
+                '</div>' +
+                '</div>' +
+                '</div>' +
+                '</div>';
+        }
 
-    function addDrift() { 
+        document.getElementById("footerMenu").innerHTML =
+            '<footer class="light-bg">' +
+            '<div class="row pt-5">' +
+            '<div class="col-lg-4 text-center">' +
+            '<img class="circle-logo" src="./images/circle-logo.png">' +
+            '</div>' +
+            '<div class="col-lg-2 footer-col">' +
+            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
+            '<div style="display: flex; flex-direction:column;">' +
+            '<a href="./about.html" class="my-1">About</a>' +
+            '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
+            '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-2 footer-col">' +
+            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Legal</b></p>' +
+            '<div style="display: flex; flex-direction:column;">' +
+            '<a href="./terms.html" class="my-1">Terms</a>' +
+            '<a href="./privacy.html" class="my-1">Privacy</a>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-4 footer-col">' +
+            '<p style="color: black;" class="mb-3"><b>Contact Us</b></p>' +
+            // '<p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>' +
+            '<div class=" d-block d-sm-inline-block">' +
+            '<p class="mb-2">' +
+            '<span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:info@reserveairspace.com">info@reserveairspace.com</a></span>' +
+            '</p>' +
+            '<p class="mb-0">' +
+            '<span class="ti-headphone-alt mr-2"></span> <a href="tel:3127245112">312-724-5112</a>' +
+            '</p>' +
+            '</div>' +
+            '<br>' +
+            '<div class="social-icons mt-3">' +
+            '<a href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
+            '<a href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-lg-2">' +
+            '<div>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '<div class="row mt-5">' +
+            '<div class="col-12 text-center">' +
+            '<p><small>COPYRIGHT © 2018. AIRSPACE. ALL RIGHTS RESERVED.</small></p>' +
+            '</div>' +
+            '</div>';
+    }
+    addSharedNavAndFooter();
+
+    function addDrift() {
         !function () {
             var t = window.driftt = window.drift = window.driftt || [];
             if (!t.init) {
@@ -117,7 +125,7 @@ $(function () {
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('hgwb49xpenfu');
     }
-    addDrift(); 
+    addDrift();
 
     /*-----------------------------------
      * FIXED  MENU - HEADER

@@ -77,8 +77,10 @@ URI     : https://colorlib.com
         </div>
     </div>
 
-    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2rAXkSqBOF5uJjuy9q8sMLM8NwxQRgtMo1oX2O5Qy0FZ2pg/formResponse"
-        target="_self" method="POST" id="mG61Hd" onsubmit="">
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.reload();}"></iframe>
+
+    <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe2rAXkSqBOF5uJjuy9q8sMLM8NwxQRgtMo1oX2O5Qy0FZ2pg/formResponse" method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true;">
         <div class="row mx-3 pt-5" id="contact-us">
             <div class="col-lg-3">
             </div>
@@ -125,7 +127,7 @@ URI     : https://colorlib.com
                     <div class="col-5">
                     </div>
                     <div class="col-2">
-                        <button type="submit" class="btn btn-primary" id="submit-contact-form" onclick="">Submit</button>
+                        <button type="submit" class="btn btn-primary" id="cu-submit" onclick="">Submit</button>
                     </div>
                     <div class="col-5">
                     </div>
@@ -135,6 +137,12 @@ URI     : https://colorlib.com
             </div>
         </div>
     </form>
+
+    <script>
+        document.getElementById("cu-submit").addEventListener("click", function (event) {
+            alert("Submission successful! Thank you for your interest in Airspace. We'll get back to you soon.")
+        });
+    </script>
 
     <!-- Footer (loaded from script.js -->
     <footer id="footerMenu"></footer>
