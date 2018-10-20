@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+
+@media (max-width:991px) {      
+}
+ 
+@media (max-width:480px) {
+}
+ 
+ @media (max-width:380px) { 
+}
+ 
+ @media (max-width:330px) { 
+}
+
 /* GLOBAL
 ----------------------*/
 
@@ -276,19 +289,28 @@ header {
 @media (max-width:480px) {
     .hero-container-full { 
         max-height: 90vh !important;
-    }    
+    } 
+    .hero-container-full { 
+        max-height: 98vh !important;
+    }     
 }
 
 @media (max-width:380px) {
     .hero-container-full { 
         max-height: 98vh !important;
     }    
+    .hero-container { 
+        max-height: 90vh;
+    }
 }
 
 @media (max-width:330px) {
     .hero-container-full { 
         max-height: 105vh !important;
     }    
+    .hero-container { 
+        max-height: 90vh;
+    }
 }
 
 .hero-container-med { 
@@ -343,11 +365,32 @@ img#myImage {
 }
 
 .team-photo { 
-    height: 350px; 
-    width: 300px;
-    display: block;
-    margin: 0 auto;
-    filter: grayscale(100%);
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width:991px) {     
+    .team-photo { 
+        height: 450px;
+    } 
+}
+ 
+@media (max-width:480px) {
+    .team-photo { 
+        height: 350px;
+    }
+}
+ 
+ @media (max-width:380px) { 
+     .team-photo { 
+         height: 300px;
+     }
+}
+ 
+ @media (max-width:330px) { 
+    .team-photo { 
+        height: 250px;
+    }
 }
 
 .overlay-text-home { 
@@ -449,10 +492,20 @@ img#myImage {
     text-emphasis: bold;
 }
 
+@media (max-width:480px) {
+   .tagline {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+}
+
 @media (max-width:350px) {
+    .tagline {
+        font-size: 16px;
+        font-weight: 500 !important;
+    }
     .tagline2 { 
         font-size: 14px;
-
     }    
 }
 
@@ -469,9 +522,6 @@ img#myImage {
 }
 
 @media (max-width:767px) {
-    .tagline {
-        font-size: 17px;
-    }
     .img-holder {
         padding-bottom: 100%;
     }

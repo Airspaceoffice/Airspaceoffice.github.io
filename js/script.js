@@ -133,9 +133,9 @@ $(function () {
             '</p>' +
             '</div>' +
             '<br>' +
-            '<div class="social-icons mt-3">' +
-            '<a href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
-            '<a href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
+            '<div class="social-icons text-center text-lg-left mt-3">' +
+            '<a target="_blank" href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
+            '<a target="_blank" href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
             '</div>' +
             '</div>' +
             '<div class="col-lg-2">' +
