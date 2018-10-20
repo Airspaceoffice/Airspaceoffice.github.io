@@ -17,10 +17,60 @@ $(function () {
      * LOADING NAV BAR AND FOOTER
      *-----------------------------------*/
     function addSharedNavAndFooter() {
-        if (window.location.pathname.toString() == "business-solutions.html") {
-
-        } else if (window.location.pathname.toString() == "landlord-solutions.html") {
-
+        if (document.getElementById("landlord-nav-bar")) {
+            document.getElementById("navMenu").innerHTML =
+            '<div class="nav-menu fixed-top">' +
+            '<div class="container">' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
+            '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+            '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
+            '<div class="collapse navbar-collapse" id="navbar">' +
+            '<ul class="navbar-nav ml-auto">' +
+            '<li class="nav-item dropdown">' +
+            '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
+            '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
+            '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
+            '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
+            '</div>' +
+            '</li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
+            '<li class="nav-item lightbox-82797864536173"><a href="./landlord-solutions.html#partner-with-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Become a Partner</a></li>' +
+            '</ul>' +
+            '</div>' +
+            '</nav>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+        } else if (document.getElementById("business-nav-bar")) {
+            document.getElementById("navMenu").innerHTML =
+            '<div class="nav-menu fixed-top">' +
+            '<div class="container">' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
+            '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+            '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
+            '<div class="collapse navbar-collapse" id="navbar">' +
+            '<ul class="navbar-nav ml-auto">' +
+            '<li class="nav-item dropdown">' +
+            '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
+            '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
+            '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
+            '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
+            '</div>' +
+            '</li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
+            '<li class="nav-item lightbox-82797864536173"><a href="./business-solutions.html#consultForm" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request a Consultation</a></li>' +
+            '</ul>' +
+            '</div>' +
+            '</nav>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
         } else {
             document.getElementById("navMenu").innerHTML =
                 '<div class="nav-menu fixed-top">' +
