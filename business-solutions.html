@@ -481,7 +481,7 @@ URI     : https://colorlib.com
                     <h3>Consultation Request</h3>
                 </div>
                 <script type="text/javascript">var submitted=false;</script>
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.reload();}"></iframe>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.href = 'thank-you.html'}"></iframe>
 
                 <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdVaua6kDi98p7F5AJwld-kPf5N09iC8sW23TrYvsTFCMCQXA/formResponse" method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="form-group row">
@@ -534,12 +534,6 @@ URI     : https://colorlib.com
             <div class="col-lg-3">
             </div>
         </div>
-
-        <script>
-            document.getElementById("rc-submit").addEventListener("click", function (event) {
-                alert("Submission successful! Thank you for your interest in Airspace. We'll get back to you soon.")
-            });
-        </script>
     </div>
 
     <!-- Footer (loaded from script.js -->
