@@ -428,7 +428,7 @@ img#myImage {
     background: rgba(0,0,0,0);
     color: #fff;
     font-weight: 20px;
-    font-size: 60px;
+    font-size: 45px;
   }
 
   
@@ -436,7 +436,7 @@ img#myImage {
     background: rgba(0,0,0,0);
     color: #fff;
     font-weight: 20px;
-    font-size: 40px;
+    font-size: 33px;
   }
 
   @media (max-width:991px) {
@@ -477,7 +477,7 @@ img#myImage {
 
 .tagline {
     font-size: 23px;
-    font-weight: 350;
+    font-weight: 500;
     color: #FFF;
     /* text-decoration: underline; */
     /* text-align: center; */
