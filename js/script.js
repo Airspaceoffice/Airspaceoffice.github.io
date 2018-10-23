@@ -24,7 +24,7 @@ $(function () {
             '<div class="row">' +
             '<div class="col-md-12">' +
             '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
-            '<a class="navbar-brand" href="./public/index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+            '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
             '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
             '<div class="collapse navbar-collapse" id="navbar">' +
             '<ul class="navbar-nav ml-auto">' +
@@ -51,7 +51,7 @@ $(function () {
             '<div class="row">' +
             '<div class="col-md-12">' +
             '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
-            '<a class="navbar-brand" href="./public/index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+            '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
             '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
             '<div class="collapse navbar-collapse" id="navbar">' +
             '<ul class="navbar-nav ml-auto">' +
@@ -78,7 +78,7 @@ $(function () {
                 '<div class="row">' +
                 '<div class="col-md-12">' +
                 '<nav style="color: #ffff;" class="navbar navbar-dark navbar-expand-lg">' +
-                '<a class="navbar-brand" href="./public/index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
+                '<a class="navbar-brand" href="./index.html"><img src="./images/logo.png" class="nav-logo" alt="logo"></a>' +
                 '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
                 '<div class="collapse navbar-collapse" id="navbar">' +
                 '<ul class="navbar-nav ml-auto">' +
@@ -90,7 +90,7 @@ $(function () {
                 '</div>' +
                 '</li>' +
                 '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
-                '<li class="nav-item lightbox-82797864536173"><a href="./public/index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
+                '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
                 '</ul>' +
                 '</div>' +
                 '</nav>' +
