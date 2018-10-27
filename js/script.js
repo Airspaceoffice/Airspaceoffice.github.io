@@ -28,13 +28,8 @@ $(function () {
             '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
             '<div class="collapse navbar-collapse" id="navbar">' +
             '<ul class="navbar-nav ml-auto">' +
-            '<li class="nav-item dropdown">' +
-            '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
-            '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
-            '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
-            '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
-            '</div>' +
-            '</li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">FOR BUSINESSES</a> </li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">FOR LANDLORDS</a> </li>' +
             '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
             '<li class="nav-item lightbox-82797864536173"><a href="./landlord-solutions.html#partner-with-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Become a Partner</a></li>' +
             '</ul>' +
@@ -55,13 +50,8 @@ $(function () {
             '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
             '<div class="collapse navbar-collapse" id="navbar">' +
             '<ul class="navbar-nav ml-auto">' +
-            '<li class="nav-item dropdown">' +
-            '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
-            '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
-            '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
-            '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
-            '</div>' +
-            '</li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">FOR BUSINESSES</a> </li>' +
+            '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">FOR LANDLORDS</a> </li>' +
             '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
             '<li class="nav-item lightbox-82797864536173"><a href="./business-solutions.html#consultForm" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request a Consultation</a></li>' +
             '</ul>' +
@@ -82,13 +72,8 @@ $(function () {
                 '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
                 '<div class="collapse navbar-collapse" id="navbar">' +
                 '<ul class="navbar-nav ml-auto">' +
-                '<li class="nav-item dropdown">' +
-                '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>' +
-                '<div class="dropdown-menu" aria-labelledby="navbarDropdown">' +
-                '<a class="dropdown-item" href="./business-solutions.html">For Businesses</a>' +
-                '<a class="dropdown-item" href="./landlord-solutions.html">For Landlords</a>' +
-                '</div>' +
-                '</li>' +
+                '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">FOR BUSINESSES</a> </li>' +
+                '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">FOR LANDLORDS</a> </li>' +
                 '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
                 '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
                 '</ul>' +
