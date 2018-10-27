@@ -112,7 +112,7 @@ $(function () {
             // '<p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>' +
             '<div class=" d-block d-sm-inline-block">' +
             '<p class="mb-2">' +
-            '<span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:info@reserveairspace.com">info@reserveairspace.com</a></span>' +
+            '<span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:Hello@airspaceoffice.co">Hello@airspaceoffice.co</a></span>' +
             '</p>' +
             '<p class="mb-0">' +
             '<span class="ti-headphone-alt mr-2"></span> <a href="tel:3127245112">312-724-5112</a>' +
