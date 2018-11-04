@@ -364,6 +364,18 @@ img#myImage {
     filter: brightness(0.5);
 }
 
+.appScreenshot { 
+    max-height: 600px;
+    text-align: right;
+    padding-left: 10rem;
+}
+
+@media (max-width:780px) {
+    .appScreenshot { 
+        padding-left: 0rem;
+    }
+}
+
 .team-photo { 
     width: 100%;
     height: 350px;
