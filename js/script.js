@@ -99,7 +99,7 @@ $(function () {
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About</a>' +
              '<a href="./blog.html" class="my-1">Blog</a>' +
-             '<a href="./Technology.html" class="my-1">technology</a>' +
+             '<a href="./technology.html" class="my-1">Technology</a>' +
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
             '</div>' +
