@@ -74,7 +74,7 @@ $(function () {
                 '<ul class="navbar-nav ml-auto">' +
                 '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">FOR BUSINESSES</a> </li>' +
                 '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">FOR LANDLORDS</a> </li>' +
-                '<li class="nav-item"> <a class="nav-link" href="./Technology.html">TECHNOLOGY</a> </li>' +
+                '<li class="nav-item"> <a class="nav-link" href="./technology.html">TECHNOLOGY</a> </li>' +
                 '<li class="nav-item"> <a class="nav-link" href="./about.html">ABOUT</a> </li>' +
                 '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>' +
                 '</ul>' +
@@ -97,7 +97,7 @@ $(function () {
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About</a>' +
              '<a href="./blog.html" class="my-1">Blog</a>' +
-             '<a href="./Technology.html" class="my-1">Technology</a>' +
+             '<a href="./Technology.html" class="my-1">technology</a>' +
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
             '</div>' +
