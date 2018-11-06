@@ -86,6 +86,11 @@ p.lead {
     font-weight: 300;
 }
 
+.blog-body { 
+    font-size: 20px;
+    color: black;
+}
+
 .btn {
     font-size: 12px;
     font-weight: 400;
