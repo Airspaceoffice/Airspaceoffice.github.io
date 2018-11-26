@@ -102,6 +102,7 @@ $(function () {
              '<a href="./technology.html" class="my-1">Technology</a>' +
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
+            '<a href="./careers.html" class="my-1">Careers</a>' +
             '</div>' +
             '</div>' +
             '<div class="col-lg-2 footer-col">' +
