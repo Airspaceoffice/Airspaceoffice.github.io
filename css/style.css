@@ -324,6 +324,12 @@ header {
     max-height: 50vh;
 }
 
+.hero-container-sm { 
+    position: relative;
+    overflow: hidden;
+    max-height: 30vh;
+}
+
 .circle-logo { 
     align-content: center;
     max-width: 115px;
@@ -379,6 +385,11 @@ img#myImage {
     .appScreenshot { 
         padding-left: 0rem;
     }
+}
+
+.space-image { 
+    width: 150px;
+    height: 100px;
 }
 
 .team-photo { 
@@ -691,6 +702,15 @@ img#myImage {
 
 .card.features {
     border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+.card.features.border {
+    border: 0.5px solid  rgb(240, 124, 148) !important; 
+    border-width: 3px;
+    border-style: solid;
     border-radius: 3px;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
