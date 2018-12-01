@@ -387,6 +387,81 @@ img#myImage {
     }
 }
 
+.space-title { 
+    font-size: 40px;
+}
+.space-subtitle{ 
+    font-size: 25px;
+}
+
+.space-button { 
+    font-size: 13px; 
+    float: left; 
+}
+
+@media (max-width:991px) {     
+    .space-title { 
+        font-size: 40px;
+        text-align: center;
+    } 
+    .space-subtitle { 
+        font-size: 25px;
+        text-align: center;
+    }
+    .space-button { 
+        float: none !important; 
+        display: block;
+        margin: 0 auto;
+    }
+}
+ 
+@media (max-width:480px) {
+    .space-title { 
+        font-size: 22px;
+        text-align: center;
+    } 
+    .space-subtitle { 
+        font-size: 20px;
+        text-align: center;
+    }
+    .space-button { 
+        float: none !important; 
+        display: block;
+        margin: 0 auto;
+    }
+}
+ 
+ @media (max-width:380px) { 
+    .space-title { 
+        font-size: 22px;
+        text-align: center;
+    } 
+    .space-subtitle { 
+        font-size: 18px;
+        text-align: center;
+    }
+    .space-button { 
+        float: none !important; 
+        display: block;
+        margin: 0 auto;
+    }
+}
+ 
+ @media (max-width:330px) { 
+    .space-title { 
+        font-size: 22px;
+        text-align: center;
+    } 
+    .space-subtitle { 
+        font-size: 18px;
+        text-align: center;
+    }
+    .space-button { 
+        float: none !important; 
+        display: block;
+        margin: 0 auto;
+    }
+}
 .space-image {
     width: 100%;
     max-height: 200px;
