@@ -469,7 +469,7 @@ img#myImage {
 
 .team-photo { 
     width: 100%;
-    height: 350px;
+    height: 100%;
 }
 
 .team-photos-section { 
@@ -478,7 +478,7 @@ img#myImage {
 
 @media (max-width:991px) {     
     .team-photo { 
-        height: 350px;
+        height: 100%;
     } 
     .team-photos-section { 
         padding-left: 50px; 
