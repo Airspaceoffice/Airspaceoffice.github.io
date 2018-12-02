@@ -98,17 +98,19 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About</a>' +
-             '<a href="./blog.html" class="my-1">Blog</a>' +
-             '<a href="./technology.html" class="my-1">Technology</a>' +
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
-            '<a href="./careers.html" class="my-1">Careers</a>' +
+            '<a href="./technology.html" class="my-1">Technology</a>' +
+            '<a href="./spaces.html" class="my-1">Spaces</a>' +
             '</div>' +
             '</div>' +
             '<div class="col-lg-2 footer-col">' +
-            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Legal</b></p>' +
+            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>...</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
-            '<a href="./terms.html" class="my-1">Terms</a>' +
+            '<a href="./blog.html" class="my-1">Blog</a>' +
+            '<a href="./careers.html" class="my-1">Careers</a>' +
+            '<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +
+            '<a href="./terms.html" class="my-1">Terms</a>' + 
             '<a href="./privacy.html" class="my-1">Privacy</a>' +
             '</div>' +
             '</div>' +
