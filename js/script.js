@@ -105,7 +105,7 @@ $(function () {
             '</div>' +
             '</div>' +
             '<div class="col-lg-2 footer-col">' +
-            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>...</b></p>' +
+            '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>More</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
             '<a href="./careers.html" class="my-1">Careers</a>' +

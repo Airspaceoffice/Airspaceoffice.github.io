@@ -66,7 +66,7 @@ URI     : https://colorlib.com
                                 <div class="media-body">
                                     <div class="row">
                                         <div class="col-12 col-lg-3 mt-3">
-                                            <img class="space-image" src="images/suite.jpg">
+                                            <img class="space-image" onclick="openModal('firstLightbox')" src="images/suite.jpg">
                                         </div>
                                         <div class="col-12 col-lg-9 mt-1">
                                             <h3 style="font-size: 20pt">71 South Wacker</h3>
@@ -110,6 +110,24 @@ URI     : https://colorlib.com
                     </div>
                 </div>
             </div>
+            <!-- firstLightbox -->
+            <div id="firstLightbox" class="modal">
+                <div class="modal-content">
+                    <span class="close cursor" onclick="closeModal('firstLightbox')">&times;</span>
+                    <div class="firstLightboxSlides">
+                        <img src="images/suite.jpg" style="width:100%">
+                    </div>
+
+                    <div class="firstLightboxSlides">
+                        <img src="images/suite-2420.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1, 'firstLightbox')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'firstLightbox')">&#10095;</a>
+                </div>
+            </div>
+
             <div class=" row mt-5">
                 <div class="col-12">
                     <div class="card features border">
@@ -118,7 +136,7 @@ URI     : https://colorlib.com
                                 <div class="media-body">
                                     <div class="row">
                                         <div class="col-12 col-lg-3 mt-3">
-                                            <img class="space-image" src="images/suite-2420.jpg">
+                                            <img class="space-image" onclick="openModal('secondLightbox')" src="images/suite-2420.jpg">
                                         </div>
                                         <div class="col-12 col-lg-9 mt-1">
                                             <h3 style="font-size: 20pt">71 South Wacker</h3>
@@ -163,6 +181,24 @@ URI     : https://colorlib.com
                     </div>
                 </div>
             </div>
+            <!-- secondLightbox -->
+            <div id="secondLightbox" class="modal">
+                <div class="modal-content">
+                    <span class="close cursor" onclick="closeModal('secondLightbox')">&times;</span>
+                    <div class="secondLightboxSlides">
+                        <img src="images/suite-2420.jpg" style="width:100%">
+                    </div>
+
+                    <div class="secondLightboxSlides">
+                        <img src="images/suite.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1, 'secondLightbox')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'secondLightbox')">&#10095;</a>
+                </div>
+            </div>
+
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="card features border">
@@ -187,7 +223,7 @@ URI     : https://colorlib.com
                                 <div class="media-body">
                                     <div class="row">
                                         <div class="col-12 col-lg-3 mt-3">
-                                            <img class="space-image" src="images/suite-3725.jpg">
+                                            <img class="space-image" onclick="openModal('thirdLightbox')" src="images/suite-3725.jpg">
                                         </div>
                                         <div class="col-12 col-lg-9 mt-1">
                                             <h3 style="font-size: 20pt">71 South Wacker</h3>
@@ -230,6 +266,24 @@ URI     : https://colorlib.com
                     </div>
                 </div>
             </div>
+            <!-- thirdLightbox -->
+            <div id="thirdLightbox" class="modal">
+                <div class="modal-content">
+                    <span class="close cursor" onclick="closeModal('thirdLightbox')">&times;</span>
+                    <div class="thirdLightboxSlides">
+                        <img src="images/suite-2420.jpg" style="width:100%">
+                    </div>
+
+                    <div class="thirdLightboxSlides">
+                        <img src="images/suite.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1, 'thirdLightbox')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'thirdLightbox')">&#10095;</a>
+                </div>
+            </div>
+
             <div class=" row mt-5">
                 <div class="col-12">
                     <div class="card features border">
@@ -238,7 +292,7 @@ URI     : https://colorlib.com
                                 <div class="media-body">
                                     <div class="row">
                                         <div class="col-12 col-lg-3 mt-3">
-                                            <img class="space-image" src="images/suite-1075.jpg">
+                                            <img class="space-image" onclick="openModal('fourthLightbox')" src="images/suite-1075.jpg">
                                         </div>
                                         <div class="col-12 col-lg-9 mt-1">
                                             <h3 style="font-size: 20pt">71 South Wacker</h3>
@@ -253,26 +307,24 @@ URI     : https://colorlib.com
                                             <p class="d-none d-lg-block d-xl-block"><span class="ti-star gradient-fill ti-1x mr-3"></span>Furnished
                                                 &middot; Tech-Enabled &middot; All Amenities Included</p>
 
-                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-user gradient-fill ti-1x"></span>Seats 28-45</p>
-                                                <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span
-                                                        class="ti-money gradient-fill ti-1x"></span>$728/Employee/Month</p>
-                                                <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span
-                                                        class="ti-star gradient-fill ti-1x"></span>Furnished</p>
-                                                <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span
-                                                        class="ti-star gradient-fill ti-1x"></span>Tech-Enabled</p>
-                                                <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span
-                                                        class="ti-star gradient-fill ti-1x"></span>All Amenities
-                                                    Included</p>
+                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-user gradient-fill ti-1x"></span>Seats
+                                                28-45</p>
+                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-money gradient-fill ti-1x"></span>$728/Employee/Month</p>
+                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-star gradient-fill ti-1x"></span>Furnished</p>
+                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-star gradient-fill ti-1x"></span>Tech-Enabled</p>
+                                            <p class="d-block d-lg-none d-xl-none" style="font-size:15px;"><span class="ti-star gradient-fill ti-1x"></span>All
+                                                Amenities
+                                                Included</p>
 
-                                                <a href="tel:312-724-5112">
+                                            <a href="tel:312-724-5112">
+                                                <button class="btn btn-primary space-button ml-3 mt-1">
+                                                    <span class="ti-headphone-alt ti-1x mr-2"></span>&nbsp;312-724-5112</button>
+                                                <a href="https://www.airspaceoffice.co/index.html#contact-us">
                                                     <button class="btn btn-primary space-button ml-3 mt-1">
-                                                        <span class="ti-headphone-alt ti-1x mr-2"></span>&nbsp;312-724-5112</button>
-                                                    <a href="https://www.airspaceoffice.co/index.html#contact-us">
-                                                        <button class="btn btn-primary space-button ml-3 mt-1">
-                                                            <span class="ti-email ti-1x mr-2"></span>&nbsp;Schedule A
-                                                            Tour</button>
+                                                        <span class="ti-email ti-1x mr-2"></span>&nbsp;Schedule A
+                                                        Tour</button>
 
-                                                    </a>
+                                                </a>
                                         </div>
                                     </div>
                                 </div>
@@ -281,6 +333,24 @@ URI     : https://colorlib.com
                     </div>
                 </div>
             </div>
+              <!-- fourthLightbox -->
+              <div id="fourthLightbox" class="modal">
+                <div class="modal-content">
+                    <span class="close cursor" onclick="closeModal('fourthLightbox')">&times;</span>
+                    <div class="fourthLightboxSlides">
+                        <img src="images/suite-2420.jpg" style="width:100%">
+                    </div>
+
+                    <div class="fourthLightboxSlides">
+                        <img src="images/suite.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1, 'fourthLightbox')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'fourthLightbox')">&#10095;</a>
+                </div>
+            </div>
+
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="card features border">
@@ -309,6 +379,44 @@ URI     : https://colorlib.com
     </div>
     </div>
     </div>
+
+    <script>
+        // Open the Modal
+        function openModal(name) {
+            document.getElementById(name).style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal(name) {
+            document.getElementById(name).style.display = "none";
+        }
+
+        var slideIndex = 1;
+        // showSlides(slideIndex, );
+
+        // Next/previous controls
+        function plusSlides(n, name) {
+            showSlides(slideIndex += n, name);
+        }
+
+        function showSlides(n, name) {
+            var i;
+            var slides = document.getElementsByClassName(name + "Slides");
+            // var dots = document.getElementsByClassName("demo");
+            // var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            // for (i = 0; i < dots.length; i++) {
+            //     dots[i].className = dots[i].className.replace(" active", "");
+            // }
+            slides[slideIndex - 1].style.display = "block";
+            // dots[slideIndex - 1].className += " active";
+            // captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
 
 
     <!-- Footer (loaded from script.js -->
