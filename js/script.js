@@ -29,21 +29,29 @@ $(function () {
         '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">Businesses</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">Landlords</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./technology.html">Technology</a> </li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>';
-        if (document.getElementById("landlord-nav-bar")) {
-            navBar += '<li class="nav-item lightbox-82797864536173"><a href="./landlord-solutions.html#partner-with-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Become a Partner</a></li>';
-        } else if (document.getElementById("business-nav-bar")) {
-            navBar += '<li class="nav-item lightbox-82797864536173"><a href="./business-solutions.html#consultForm" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request a Consultation</a></li>';
-        } else {
-            navBar += '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>';
-        }
-        navBar += '</ul>' +
-            '</div>' +
-            '</nav>' +
-            '</div>' +
-            '</div>' +
-            '</div>' +
-            '</div>';
+        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
+        '<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+
+        '</ul>' +
+        '</div>' +
+        '</nav>' +
+        '</div>' +
+        '</div>' +
+        '</div>' +
+        '</div>';
+        // if (document.getElementById("landlord-nav-bar")) {
+        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./landlord-solutions.html#partner-with-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Become a Partner</a></li>';
+        // } else if (document.getElementById("business-nav-bar")) {
+        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./business-solutions.html#consultForm" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request a Consultation</a></li>';
+        // } else {
+        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>';
+        // }
+        // navBar += '</ul>' +
+        //     '</div>' +
+        //     '</nav>' +
+        //     '</div>' +
+        //     '</div>' +
+        //     '</div>' +
+        //     '</div>';
         document.getElementById("navMenu").innerHTML = navBar; 
 
         document.getElementById("footerMenu").innerHTML =
