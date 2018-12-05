@@ -38,20 +38,6 @@ $(function () {
         '</div>' +
         '</div>' +
         '</div>';
-        // if (document.getElementById("landlord-nav-bar")) {
-        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./landlord-solutions.html#partner-with-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Become a Partner</a></li>';
-        // } else if (document.getElementById("business-nav-bar")) {
-        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./business-solutions.html#consultForm" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Request a Consultation</a></li>';
-        // } else {
-        //     navBar += '<li class="nav-item lightbox-82797864536173"><a href="./index.html#contact-us" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Contact Us</a></li>';
-        // }
-        // navBar += '</ul>' +
-        //     '</div>' +
-        //     '</nav>' +
-        //     '</div>' +
-        //     '</div>' +
-        //     '</div>' +
-        //     '</div>';
         document.getElementById("navMenu").innerHTML = navBar; 
 
         document.getElementById("footerMenu").innerHTML =
