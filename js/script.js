@@ -53,6 +53,7 @@ $(function () {
             '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
             '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
             '<a href="./technology.html" class="my-1">Technology</a>' +
+            '<a href="./serviced-by-airspace.html" class="my-1">Serviced by Airspace</a>' +
             '<a href="./spaces.html" class="my-1">Spaces</a>' +
             '</div>' +
             '</div>' +
