@@ -580,6 +580,10 @@ img#myImage {
 }
 
 @media (max-width:330px) {
+    .headline {
+        font-size: 30px !important;
+      }
+
     .headline2 { 
         margin-top: 1rem;
         font-weight: 13px;
