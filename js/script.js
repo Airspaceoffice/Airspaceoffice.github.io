@@ -42,9 +42,6 @@ $(function () {
           '<a class="dropdown-item" href="./powered-by-airspace.html">Powered by Airspace</a>' +
         '</div>'+
         ' </li>'+
-        // '<li class="nav-item"> <a class="nav-link" href="./business-solutions.html">Businesses</a> </li>' +
-        // '<li class="nav-item"> <a class="nav-link" href="./landlord-solutions.html">Landlords</a> </li>' +
-        //  '<li class="nav-item"> <a class="nav-link" href="./serviced-by-airspace.html">Serviced by Airspace</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./technology.html">Technology</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
         '<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+
@@ -67,8 +64,8 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About</a>' +
-            '<a href="./landlord-solutions.html" class="my-1">Landlord Solutions</a>' +
-            '<a href="./business-solutions.html" class="my-1">Business Solutions</a>' +
+            '<a href="./powered-by-airspace.html" class="my-1">Powered by Airspace</a>' +
+            '<a href="./office-by-airspace.html" class="my-1">Office by Airspace</a>' +
             '<a href="./serviced-by-airspace.html" class="my-1">Serviced by Airspace</a>' +
             '<a href="./technology.html" class="my-1">Technology</a>' +
             '<a href="./spaces.html" class="my-1">Spaces</a>' +
