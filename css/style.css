@@ -282,27 +282,26 @@ header {
 .hero-container-full { 
     position: relative;
     overflow: hidden;
+    display: block;
+    align-items: center;
     max-height: 90vh;
 }
 
 @media (max-width:780px) {
     .hero-container-full { 
-        max-height: 80vh !important;
+        max-height: 40vh !important;
     }    
 }
 
 @media (max-width:480px) {
     .hero-container-full { 
-        max-height: 90vh !important;
-    } 
-    .hero-container-full { 
-        max-height: 98vh !important;
+        max-height: 35vh !important;
     }     
 }
 
 @media (max-width:380px) {
     .hero-container-full { 
-        max-height: 98vh !important;
+        max-height: 35vh !important;
     }    
     .hero-container { 
         max-height: 90vh;
@@ -311,7 +310,7 @@ header {
 
 @media (max-width:330px) {
     .hero-container-full { 
-        max-height: 105vh !important;
+        max-height: 30vh !important;
     }    
     .hero-container { 
         max-height: 90vh;
