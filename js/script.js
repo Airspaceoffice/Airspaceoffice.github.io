@@ -43,8 +43,8 @@ $(function () {
         '</div>'+
         ' </li>'+
         '<li class="nav-item"> <a class="nav-link" href="./technology.html">Technology</a> </li>' +
-        /*'<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+*/
-        '<li class="nav-item lightbox-82797864536173"><a href="./about.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">About Us</a></li>'+
+        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
+        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://airspace-management-app.firebaseapp.com" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Sign In</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
         '</ul>' +
         '</div>' +
