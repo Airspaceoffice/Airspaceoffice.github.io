@@ -26,7 +26,7 @@ $(function () {
         '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>' +
         '<div class="collapse navbar-collapse" id="navbar">' +
         '<ul class="navbar-nav ml-auto">' +
-        '<li class="nav-item dropdown">' +
+        /*'<li class="nav-item dropdown">' +
         '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Business Solutions' +
         '</a>'+
         '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
@@ -41,9 +41,11 @@ $(function () {
         '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
           '<a class="dropdown-item" href="./powered-by-airspace.html">Powered by Airspace</a>' +
         '</div>'+
-        ' </li>'+
-        '<li class="nav-item"> <a class="nav-link" href="./technology.html">Technology</a> </li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
+        ' </li>'+*/
+        '<li class="nav-item"> <a class="nav-link" href="./office-concierge.html">Office Concierge</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="./technology.html">Airspace Office App</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlord Partnerships</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+
         '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://airspace-management-app.firebaseapp.com" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Sign In</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
         '</ul>' +
@@ -65,10 +67,9 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About Us</a>' +
-            '<a href="./powered-by-airspace.html" class="my-1">Powered by Airspace</a>' +
-            '<a href="./office-by-airspace.html" class="my-1">Office by Airspace</a>' +
-            '<a href="./serviced-by-airspace.html" class="my-1">Serviced by Airspace</a>' +
-            '<a href="./technology.html" class="my-1">Technology</a>' +
+            '<a href="./office-concierge.html" class="my-1">Office Concierge</a>' +
+            '<a href="./technology.html" class="my-1">Airspace Office App</a>' +
+            '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
             '</div>' +
             '</div>' +
@@ -77,7 +78,7 @@ $(function () {
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
             '<a href="./careers.html" class="my-1">Careers</a>' +
-            '<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +
+            /*'<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +*/
             '<a href="./terms.html" class="my-1">Terms</a>' + 
             '<a href="./privacy.html" class="my-1">Privacy</a>' +
             '</div>' +
