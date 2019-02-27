@@ -291,12 +291,12 @@ header {
     height: 300px;
 }
 
-@media (max-width:780px) {
+@media (max-width:7180px) {
     .hero-container-full { 
-        max-height: 30vh !important;
+        max-height: 60vh !important;
     }  
     .responsive-home-image { 
-        height: 250px;
+        height: 130px;
     }  
 }
 
@@ -311,7 +311,7 @@ header {
 
 @media (max-width:380px) {
     .hero-container-full { 
-        max-height: 40vh !important;
+        max-height: 60vh !important;
     }    
     .hero-container { 
         max-height: 90vh;
