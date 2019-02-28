@@ -789,7 +789,7 @@ img#myImage {
 
 .gradient-fill:before {
     color: rgb(240, 124, 148);
-    background: rgb(240, 124, 148);
+    background: rgb(252, 88, 143);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
