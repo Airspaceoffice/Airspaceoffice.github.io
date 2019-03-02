@@ -70,6 +70,7 @@ $(function () {
             '<a href="./experience-manager.html" class="my-1">Experience Manager</a>' +
             '<a href="./technology.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
+            '<a href="./vendor-partnerships.html" class="my-1">Vendor Partnerships</a>' +
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
             '</div>' +
             '</div>' +
