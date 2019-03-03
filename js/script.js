@@ -79,6 +79,7 @@ $(function () {
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
             '<a href="./careers.html" class="my-1">Careers</a>' +
+            '<a href="./faq.html" class="my-1">FAQ</a>' +
             /*'<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +*/
             '<a href="./terms.html" class="my-1">Terms</a>' + 
             '<a href="./privacy.html" class="my-1">Privacy</a>' +
