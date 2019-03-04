@@ -296,7 +296,7 @@ header {
         max-height: 60vh !important;
     }  
     .responsive-home-image { 
-        height: 130px;
+        height: 150px;
     }  
 }
 
@@ -305,7 +305,7 @@ header {
         max-height: 40vh !important;
     }  
     .responsive-home-image { 
-        height: 100px;
+        height: 130px;
     }    
 }
 
@@ -317,7 +317,7 @@ header {
         max-height: 90vh;
     }
     .responsive-home-image { 
-        height: 70px;
+        height: 110px;
     }  
 }
 
@@ -329,7 +329,7 @@ header {
         max-height: 90vh;
     }
     .responsive-home-image { 
-        height: 50px;
+        height: 90px;
     }  
 }
 
