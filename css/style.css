@@ -103,8 +103,8 @@ p.lead {
 .ctaHero:active,
 .ctaHero { 
     color: #fff;
-    background-color: rgb(240, 124, 148);
-    border-color: rgb(240, 124, 148);
+    background-color: #FC588F;
+    border-color: #FC588F;
 }
 
 .ctaHero:hover { 
