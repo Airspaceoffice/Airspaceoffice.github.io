@@ -302,7 +302,7 @@ header {
 
 @media (max-width:480px) {
     .hero-container-full { 
-        max-height: 80vh !important;
+        max-height: 90vh !important;
     }  
     .responsive-home-image { 
         height: 130px;
