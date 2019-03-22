@@ -43,8 +43,8 @@ $(function () {
         '</div>'+
         ' </li>'+*/
         // '<li class="nav-item"> <a class="nav-link" href="./experience-manager.html">Experience Management</a> </li>' +
-        // '<li class="nav-item"> <a class="nav-link" href="./office-app.html">Airspace Office App</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./pricing.html">Pricing</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="./office-app.html">Office App</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./faq.html">FAQs</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
         '<li class="nav-item dropdown">' +
