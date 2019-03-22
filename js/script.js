@@ -51,9 +51,9 @@ $(function () {
         '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner With Us' +
         '</a>'+
         '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
-          '<a class="dropdown-item" href="./landlord-partnerships.html">For Landlords</a>' +
+          '<a class="dropdown-item" href="./landlord-partnerships.html">Landlords</a>' +
           '<div class="dropdown-divider"></div>' +
-          '<a class="dropdown-item" href="./vendor-partnerships.html">For Service Vendors</a>' +
+          '<a class="dropdown-item" href="./vendor-partnerships.html">Service Vendors</a>' +
         '</div>'+
         ' </li>'+
         // '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
