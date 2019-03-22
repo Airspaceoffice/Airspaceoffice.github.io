@@ -57,7 +57,7 @@ $(function () {
         ' </li>'+
         '<li class="nav-item"> <a class="nav-link" href="https://airspace-management-app.firebaseapp.com">Sign In</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+
-        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://drift.me/airspaceoffice" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
+        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="./index.html#get-started" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
         '</ul>' +
         '</div>' +
