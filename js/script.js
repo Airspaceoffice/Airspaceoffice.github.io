@@ -42,11 +42,22 @@ $(function () {
           '<a class="dropdown-item" href="./powered-by-airspace.html">Powered by Airspace</a>' +
         '</div>'+
         ' </li>'+*/
-        '<li class="nav-item"> <a class="nav-link" href="./experience-manager.html">Experience Management</a> </li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./technology.html">Airspace Office App</a> </li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlord Partnerships</a> </li>' +
-        '<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+
-        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://airspace-management-app.firebaseapp.com" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Sign In</a></li>'+
+        // '<li class="nav-item"> <a class="nav-link" href="./experience-manager.html">Experience Management</a> </li>' +
+        // '<li class="nav-item"> <a class="nav-link" href="./technology.html">Airspace Office App</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="./pricing.html">Pricing</a> </li>' +
+        // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
+        '<li class="nav-item dropdown">' +
+        '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner With Us' +
+        '</a>'+
+        '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
+          '<a class="dropdown-item" href="./landlord-partnerships.html">For Landlords</a>' +
+          '<div class="dropdown-divider"></div>' +
+          '<a class="dropdown-item" href="./vendor-partnerships.html">For Service Vendors</a>' +
+        '</div>'+
+        ' </li>'+
+        '<li class="nav-item"> <a class="nav-link" href="https://airspace-management-app.firebaseapp.com">Sign In</a> </li>' +
+        // '<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+
+        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://drift.me/airspaceoffice" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
         '</ul>' +
         '</div>' +

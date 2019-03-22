@@ -283,7 +283,7 @@ header {
     position: relative;
     overflow: hidden;
     align-items: center;
-    max-height: 90vh;
+    max-height: 60vh;
 }
 
 .responsive-home-image { 
