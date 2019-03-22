@@ -43,7 +43,7 @@ $(function () {
         '</div>'+
         ' </li>'+*/
         // '<li class="nav-item"> <a class="nav-link" href="./experience-manager.html">Experience Management</a> </li>' +
-        // '<li class="nav-item"> <a class="nav-link" href="./technology.html">Airspace Office App</a> </li>' +
+        // '<li class="nav-item"> <a class="nav-link" href="./office-app.html">Airspace Office App</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./pricing.html">Pricing</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
         '<li class="nav-item dropdown">' +
@@ -79,7 +79,7 @@ $(function () {
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About Us</a>' +
             // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
-            '<a href="./technology.html" class="my-1">Airspace Office App</a>' +
+            '<a href="./office-app.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
             '<a href="./vendor-partnerships.html" class="my-1">Vendor Partnerships</a>' +
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
