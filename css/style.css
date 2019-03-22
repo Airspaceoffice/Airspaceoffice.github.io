@@ -290,7 +290,22 @@ header {
     height: 300px;
 }
 
+.home-hero-headline { 
+    font-size: 45px; 
+}
+
+.home-hero-text { 
+    font-size: 25px; 
+}
+
 @media (max-width:780px) {
+    .home-hero-headline { 
+        font-size: 40px; 
+    }
+    .home-hero-text { 
+        font-size: 25px; 
+    }
+
     .hero-container-full { 
         max-height: 90vh !important;
     }  
@@ -300,6 +315,12 @@ header {
 }
 
 @media (max-width:480px) {
+    .home-hero-headline { 
+        font-size: 30px; 
+    }
+    .home-hero-text { 
+        font-size: 20px; 
+    }
     .hero-container-full { 
         max-height: 90vh !important;
     }  
@@ -309,6 +330,12 @@ header {
 }
 
 @media (max-width:380px) {
+    .home-hero-headline { 
+        font-size: 25px; 
+    }
+    .home-hero-text { 
+        font-size: 20px; 
+    }
     .hero-container-full { 
         max-height: 90vh !important;
     }    
@@ -832,6 +859,10 @@ img#myImage {
 
 .card-text {
     font-size: 14px;
+}
+
+.card-title {
+    font-size: 30px;
 }
 
 .card.features:hover {

@@ -78,7 +78,7 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./about.html" class="my-1">About Us</a>' +
-            '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
+            // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
             '<a href="./technology.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
             '<a href="./vendor-partnerships.html" class="my-1">Vendor Partnerships</a>' +
