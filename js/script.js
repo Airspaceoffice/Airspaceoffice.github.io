@@ -56,7 +56,7 @@ $(function () {
           '<a class="dropdown-item" href="./vendor-partnerships.html">For Service Vendors</a>' +
         '</div>'+
         ' </li>'+
-        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
+        // '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
         '<li class="nav-item"> <a class="nav-link" target="_blank" href="https://airspace-management-app.firebaseapp.com">Sign In</a> </li>' +
         '<li class="nav-item lightbox-82797864536173"><a href="./get-started.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
