@@ -56,9 +56,9 @@ $(function () {
           '<a class="dropdown-item" href="./vendor-partnerships.html">For Service Vendors</a>' +
         '</div>'+
         ' </li>'+
+        '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
         '<li class="nav-item"> <a class="nav-link" href="https://airspace-management-app.firebaseapp.com">Sign In</a> </li>' +
-        // '<li class="nav-item"> <a class="nav-link" href="./about.html">About Us</a> </li>'+
-        '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="./index.html#get-started" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
+        '<li class="nav-item lightbox-82797864536173"><a href="./get-started.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
         /*'<li class="nav-item lightbox-82797864536173"><a href="spaces.html" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Find Space</a></li>'+*/
         '</ul>' +
         '</div>' +
@@ -78,7 +78,7 @@ $(function () {
             '<div class="col-lg-2 footer-col">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
-            // '<a href="./about.html" class="my-1">About Us</a>' +
+            '<a href="./about.html" class="my-1">About</a>' +
             // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
             '<a href="./office-app.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
