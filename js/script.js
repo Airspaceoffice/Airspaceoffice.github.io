@@ -45,6 +45,7 @@ $(function () {
         // '<li class="nav-item"> <a class="nav-link" href="./experience-manager.html">Experience Management</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./office-app.html">Airspace Office App</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./pricing.html">Pricing</a> </li>' +
+        // '<li class="nav-item"> <a class="nav-link" href="./faq.html">FAQs</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
         '<li class="nav-item dropdown">' +
         '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner With Us' +
@@ -77,7 +78,7 @@ $(function () {
             '<div class="col-lg-2 footer-col">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
-            '<a href="./about.html" class="my-1">About Us</a>' +
+            // '<a href="./about.html" class="my-1">About Us</a>' +
             // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
             '<a href="./office-app.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
@@ -89,7 +90,7 @@ $(function () {
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-3"><b>More</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
-            '<a href="./careers.html" class="my-1">Careers</a>' +
+            // '<a href="./careers.html" class="my-1">Careers</a>' +
             '<a href="./faq.html" class="my-1">FAQ</a>' +
             /*'<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +*/
             '<a href="./terms.html" class="my-1">Terms</a>' + 
