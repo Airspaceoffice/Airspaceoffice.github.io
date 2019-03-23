@@ -6,7 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Airspace is the easiest way to get services, amenities, and technology for your private office.">
+    <meta name="description"
+        content="Airspace is the easiest way to get services, amenities, and technology for your private office.">
     <meta name="keywords" content="Airspace, home, services, amenities, technology, office, private">
 
     <!-- Font -->
@@ -36,11 +37,33 @@
         gtag('config', 'UA-127752122-1');
     </script>
 
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function (c, a) {
+            if (!a.__SV) {
+                var b = window; try { var d, m, j, k = b.location, f = k.hash; d = function (a, b) { return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null }; f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage.setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search))) } catch (n) { } var l, h; window.mixpanel = a; a._i = []; a.init = function (b, d, g) {
+                    function c(b, i) {
+                        var a = i.split("."); 2 == a.length && (b = b[a[0]], i = a[1]); b[i] = function () {
+                            b.push([i].concat(Array.prototype.slice.call(arguments,
+                                0)))
+                        }
+                    } var e = a; "undefined" !== typeof g ? e = a[g] = [] : g = "mixpanel"; e.people = e.people || []; e.toString = function (b) { var a = "mixpanel"; "mixpanel" !== g && (a += "." + g); b || (a += " (stub)"); return a }; e.people.toString = function () { return e.toString(1) + ".people (stub)" }; l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                    for (h = 0; h < l.length; h++)c(e, l[h]); var f = "set set_once union unset remove delete".split(" "); e.get_group = function () { function a(c) { b[c] = function () { call2_args = arguments; call2 = [c].concat(Array.prototype.slice.call(call2_args, 0)); e.push([d, call2]) } } for (var b = {}, d = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < f.length; c++)a(f[c]); return b }; a._i.push([b, d, g])
+                }; a.__SV = 1.2; b = c.createElement("script"); b.type = "text/javascript"; b.async = !0; b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ?
+                    MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"; d = c.getElementsByTagName("script")[0]; d.parentNode.insertBefore(b, d)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init("4b6f21dc6886a40bf4900783da31064a");
+    </script><!-- end Mixpanel -->
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
     <!-- Nav Menu (Loaded from script.js)-->
     <nav id="navMenu"></nav>
+    <!-- <script>
+        // mixpanel.track_links('#navMenu', 'Clicked Nav Link');
+        // mixpanel.track_links('#footerMenu', 'Clicked Footer Link');
+    </script> -->
 
     <div class="hero-container-full">
         <video autoplay muted loop id="myVideo">
@@ -51,12 +74,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-10 col-12 text-left mb-3">
-                        <h1 class="home-hero-headline" style="color: white; text-shadow: black 1px 2px 2px">Manage your office, without the hassle.
+                        <h1 class="home-hero-headline" style="color: white; text-shadow: black 1px 2px 2px">Manage your
+                            office, without the hassle.
                         </h1>
-                        <p class="home-hero-text" style="color: white; text-shadow: black 0px 1px 2px">Airspace is the easiest way to get services,
+                        <p class="home-hero-text" style="color: white; text-shadow: black 0px 1px 2px">Airspace is the
+                            easiest way to get services,
                             amenities, and technology for your private office.</p>
-                        <a href="./get-started.html"
-                            class="btn btn-outline-light ctaHero btn-md my-3 my-sm-0 ml-lg-0"">Get Started</a>
+                        <a href="./get-started.html" class="btn btn-outline-light ctaHero btn-md my-3 my-sm-0 ml-lg-0" onclick="return trackGetStartedClickFromHomeHero()">Get Started</a>
+                        <script>
+                            function trackGetStartedClickFromHomeHero() {
+                                mixpanel.track('Clicked Get Started From Home Page Hero');
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
@@ -104,14 +133,16 @@
                                     <img src="images/pricing.png" alt="One Invoice" class="responsive-home-image"
                                         style="width: 100px; height: 100px">
                                     <h3>Competitive Pricing</h3>
-                                    <p class="mt-2 mb-5">Stop calling around & sorting through quotes. We find the best prices with savings of <b>up to 30%.</b> 
+                                    <p class="mt-2 mb-5">Stop calling around & sorting through quotes. We find the best
+                                        prices with savings of <b>up to 30%.</b>
                                     </p>
                                 </div>
                                 <div class="col-lg-4 col-sm-12 text-center">
                                     <a href="./office-app.html"><img src="images/officeapp.png" alt="One Invoice"
                                             class="responsive-home-image" style="width: 100px; height: 100px"></a>
                                     <h3><a href="./office-app.html">Integrated Office App</a></h3>
-                                    <p class="mt-2">One Platform. Lots of Power. The Airspace Office App has everything your employees need to engage
+                                    <p class="mt-2">One Platform. Lots of Power. The Airspace Office App has everything
+                                        your employees need to engage
                                         with your office. <a href="./office-app.html">Learn More!</a>
                                     </p>
                                 </div>
@@ -123,35 +154,53 @@
                             <h3 style="font-size: 35px"><b>Services + Amenities</b></h3>
                         </div>
                         <div class="row text-center text-lg-left">
-                             <div class="col-lg-2 col-12">
-                               
+                            <div class="col-lg-2 col-12">
+
                             </div>
                             <div class="col-lg-3 col-12">
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Coffee</p>
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Snacks + Beverages</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Event Management</p>
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Office Supplies</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> IT Services</p>
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> High Speed WIFI + Backup MIFI</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Coffee</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Snacks + Beverages</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Event Management</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Office Supplies</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    IT Services</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    High Speed WIFI + Backup MIFI</p>
                             </div>
                             <div class="col-lg-3 col-12">
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Cleaning</p>
-                                 <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Repairs + Maintenance</p>
-                                 <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Printing</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Postal Services</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Conference Hardware + Software</p>
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Airspace Office App</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Cleaning</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Repairs + Maintenance</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Printing</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Postal Services</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Conference Hardware + Software</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Airspace Office App</p>
                             </div>
                             <div class="col-lg-3 col-12">
-                               <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Furniture Purchase + Rental</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Contractors</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Architects</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Space Planners</p>
-                                 <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Space Designers</p>
-                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span> Office Security</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Furniture Purchase + Rental</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Contractors</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Architects</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Space Planners</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Space Designers</p>
+                                <p style="color: black" class="card-title"><span style="color: #FC588F">&#10011;</span>
+                                    Office Security</p>
                             </div>
                             <div class="col-lg-1 col-12">
-                               
+
                             </div>
                         </div>
                         <div class="text-center mt-3">
@@ -174,7 +223,8 @@
                                                 <h5><b>Meet your Experience Manager.</b></h5>
                                                 <p>Your experience manager is a dedicated office expert that asseses
                                                     your office needs to create a personalized service plan. They'll
-                                                    schedule vendor walkthroughs, find the best quote, and continue to manage your office.
+                                                    schedule vendor walkthroughs, find the best quote, and continue to
+                                                    manage your office.
                                                 </p>
                                             </div>
                                         </li>
@@ -182,22 +232,27 @@
                                             <div class="circle-icon mr-4">2</div>
                                             <div class="media-body">
                                                 <h5><b>Enjoy your Airspace managed office.</b></h5>
-                                                <p>Enjoy your serviced, amenity rich, and tech-enabled private office without worry or hassle. Your dedicated experience manager ensures quality fulfillment and handles any issues that come up.</p>
+                                                <p>Enjoy your serviced, amenity rich, and tech-enabled private office
+                                                    without worry or hassle. Your dedicated experience manager ensures
+                                                    quality fulfillment and handles any issues that come up.</p>
                                             </div>
                                         </li>
                                         <li class="media">
                                             <div class="circle-icon mr-4">3</div>
                                             <div class="media-body">
                                                 <h5><b>Pay only one invoice every month.</b></h5>
-                                                <p>We'll send you one, easy to pay, invoice every month that covers all your office
-                                                    services, amenities, and technology. The days of juggling invoices is over.</p>
+                                                <p>We'll send you one, easy to pay, invoice every month that covers all
+                                                    your office
+                                                    services, amenities, and technology. The days of juggling invoices
+                                                    is over.</p>
                                             </div>
                                         </li>
                                         <li class="media">
                                             <div class="circle-icon mr-4">4</div>
                                             <div class="media-body">
                                                 <h5><b>Modify your plan as you go.</b></h5>
-                                                <p>As your office needs change, your experience manager works with you to easily adjust your service
+                                                <p>As your office needs change, your experience manager works with you
+                                                    to easily adjust your service
                                                     plan.</p>
                                             </div>
                                         </li>
@@ -221,8 +276,13 @@
                                 <h3 style="color: #FC588F; font-size: 25px; font-weight: 500">Only pay for the office
                                     services you use.
                                 </h3>
-                                <a href="pricing.html"
-                                    class="btn btn-outline-light ctaHero btn-md my-3 my-sm-0 ml-lg-0">See pricing</a>
+                                <a href="pricing.html" class="btn btn-outline-light ctaHero btn-md my-3 my-sm-0 ml-lg-0"
+                                    onclick='return trackPricingClickFromHome()'>See pricing</a>
+                                <script>
+                                    function trackPricingClickFromHome() {
+                                        mixpanel.track('Clicked Pricing From Home Page');
+                                    }
+                                </script>
                             </div>
                         </div>
                     </div>
@@ -230,20 +290,29 @@
 
 
                 <div class="section2 pink-bg">
-        <div class="container pt-0">
-            <div class="row">
-                <div class="col-lg-7  col-sm-12 text-center text-lg-right">
-                    <p style="color: black; font-weight: 600; text-shadow: grey 0px 0px 0px">Put your office on autopilot.</p>
-                    <h4 style="font-size: 30px; color: white; text-shadow: grey 0px 0px 1px"><b>Speak to your Experience Manager</b></h3>
-                </div>
+                    <div class="container pt-0">
+                        <div class="row">
+                            <div class="col-lg-7  col-sm-12 text-center text-lg-right">
+                                <p style="color: black; font-weight: 600; text-shadow: grey 0px 0px 0px">Put your office
+                                    on autopilot.</p>
+                                <h4 style="font-size: 30px; color: white; text-shadow: grey 0px 0px 1px"><b>Speak to
+                                        your Experience Manager</b></h3>
+                            </div>
 
-                <div class="col-lg-5  col-sm-12 text-center text-lg-left pt-3">
-                    <p class="nav-item text-center text-lg-left"><a href="./get-started.html" class="btn btn-outline-light ctaHero btn-lg btn-dark my-3 my-sm-0 ml-lg-3">Get
-                            Started</a></p>
+                            <div class="col-lg-5  col-sm-12 text-center text-lg-left pt-3">
+                                <p class="nav-item text-center text-lg-left"><a href="./get-started.html"
+                                        class="btn btn-outline-light ctaHero btn-lg btn-dark my-3 my-sm-0 ml-lg-3"
+                                        onclick="return trackGetStartedClickFromHome()">Get
+                                        Started</a></p>
+                                <script>
+                                    function trackGetStartedClickFromHome() {
+                                        mixpanel.track('Clicked Get Started From Home Page');
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
 
                 <!-- Footer (loaded from script.js -->
@@ -257,4 +326,5 @@
                 <!-- Custom JS -->
                 <script src="js/script.js"></script>
 </body>
+
 </html>
