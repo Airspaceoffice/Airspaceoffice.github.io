@@ -72,7 +72,7 @@ $(function () {
         document.getElementById("footerMenu").innerHTML =
             '<footer class="light-bg">' +
             '<div class="row pt-5">' +
-            '<div class="col-lg-4 text-lg-center text-left">' +
+            '<div class="col-lg-4 text-lg-center text-center">' +
             '<img class="circle-logo" src="./images/circle-logo.png">' +
             '</div>' +
             '<div class="col-lg-2 footer-col text-left">' +
@@ -109,7 +109,7 @@ $(function () {
             '</p>' +
             '</div>' +
             '<br>' +
-            '<div class="social-icons text-left mt-3">' +
+            '<div class="social-icons text-center mt-3">' +
             '<a target="_blank" href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
             '<a target="_blank" href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
             '</div>' +

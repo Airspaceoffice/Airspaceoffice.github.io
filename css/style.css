@@ -175,7 +175,7 @@ p.lead {
 }
 
 .pink-bg {
-    background-color: rgb(255, 85, 130);
+    background-color: #E84F76;
 }
 
 .section {
@@ -323,7 +323,7 @@ header {
         font-size: 40px; 
     }
     .home-hero-text { 
-        font-size: 25px; 
+        font-size: 28px; 
     }
 
     .hero-container-full { 
@@ -339,7 +339,7 @@ header {
         font-size: 30px; 
     }
     .home-hero-text { 
-        font-size: 20px; 
+        font-size: 24px; 
     }
     .hero-container-full { 
         max-height: 70vh !important;
@@ -354,7 +354,7 @@ header {
         font-size: 30px; 
     }
     .home-hero-text { 
-        font-size: 15px; 
+        font-size: 18px; 
     }
     .hero-container-full { 
         max-height: 70vh !important;
@@ -372,7 +372,7 @@ header {
         font-size: 28px; 
     }
     .home-hero-text { 
-        font-size: 15px; 
+        font-size: 18px; 
     }
     .hero-container-full { 
         max-height: 90vh !important;
