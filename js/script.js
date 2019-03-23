@@ -75,10 +75,10 @@ $(function () {
             '<div class="col-lg-4 text-lg-center text-left">' +
             '<img class="circle-logo" src="./images/circle-logo.png">' +
             '</div>' +
-            '<div class="col-lg-2 footer-col text-lg-center text-left">' +
+            '<div class="col-lg-2 footer-col text-left">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-2"><b>Discover</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
-            '<a href="./about.html" class="my-1">About</a>' +
+            // '<a href="./about.html" class="my-1">About</a>' +
             // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
             '<a href="./office-app.html" class="my-1">Airspace Office App</a>' +
             '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
@@ -86,7 +86,7 @@ $(function () {
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
             '</div>' +
             '</div>' +
-            '<div class="col-lg-2 footer-col text-lg-center text-left">' +
+            '<div class="col-lg-2 footer-col text-left">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-2"><b>More</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
@@ -97,7 +97,7 @@ $(function () {
             '<a href="./privacy.html" class="my-1">Privacy</a>' +
             '</div>' +
             '</div>' +
-            '<div class="col-lg-4 footer-col text-lg-center text-left">' +
+            '<div class="col-lg-4 footer-col text-left">' +
             '<p style="color: black;" class="mt-3 mb-2"><b>Contact Us</b></p>' +
             // '<p class="mb-2"> <span class="ti-location-pin mr-2"></span> 1485 Pacific St, Brooklyn, NY 11216 USA</p>' +
             '<div class=" d-block d-sm-inline-block">' +
@@ -109,7 +109,7 @@ $(function () {
             '</p>' +
             '</div>' +
             '<br>' +
-            '<div class="social-icons text-left text-lg-center mt-3">' +
+            '<div class="social-icons text-left mt-3">' +
             '<a target="_blank" href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
             '<a target="_blank" href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
             '</div>' +
