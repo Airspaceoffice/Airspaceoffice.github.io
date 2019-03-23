@@ -86,7 +86,7 @@ $(function () {
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
             '</div>' +
             '</div>' +
-            '<div class="col-lg-2 col-6 footer-col text-left">' +
+            '<div class="col-lg-2 col-6 footer-col text-left mb-3">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-2"><b>More</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
