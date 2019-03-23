@@ -109,7 +109,7 @@ $(function () {
             '</p>' +
             '</div>' +
             '<br>' +
-            '<div class="social-icons text-left text-lg-left mt-3">' +
+            '<div class="social-icons text-left text-lg-center mt-3">' +
             '<a target="_blank" href="https://www.instagram.com/airspace.office/"><span class="ti-instagram"></span></a>' +
             '<a target="_blank" href="https://www.linkedin.com/company/reserveairspace/"><span class="ti-linkedin"></span></a>' +
             '</div>' +
