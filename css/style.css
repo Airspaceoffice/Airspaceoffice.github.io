@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 
 
 @media (max-width:991px) {      
@@ -147,6 +147,19 @@ p.lead {
     line-height: 1.8;
 }
 
+.btn-dark {
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 85, 130);
+;
+    margin: 0.5rem;
+    padding: 0.7rem 1.6rem;
+    line-height: 1.8;
+}
+
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 0.8rem 1rem;
@@ -161,10 +174,17 @@ p.lead {
     background-color: rgb(255, 255, 255);
 }
 
+.pink-bg {
+    background-color: rgb(255, 85, 130);
+}
+
 .section {
     padding: 80px 0;
 }
 
+.section2 {
+    padding: 50px 0;
+}
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
@@ -227,7 +247,7 @@ p.lead {
 
 .nav-menu.is-scrolling {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-nav .nav-link {
@@ -895,7 +915,7 @@ img#myImage {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: rgb(240, 124, 148);
+    color: rgb(255, 85, 138);
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -913,7 +933,7 @@ img#myImage {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-color: rgb(240, 124, 148);
+    background-color: rgb(255, 85, 138);
     color: #fff;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
