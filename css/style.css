@@ -48,7 +48,7 @@ h2 {
 
 h3 {
     color: #000000;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -92,10 +92,12 @@ p.lead {
 }
 
 .btn {
-    font-size: 12px;
-    font-weight: 400;
+    border-radius: 0px;
+    font-size: 13px;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
     text-transform: uppercase;
-    padding: 0.375rem 1.35rem;
+    padding: 0.475rem 1.2rem;
     transition: all 0.3s ease;
 }
 
@@ -114,9 +116,9 @@ p.lead {
 }
 
 .btn-primary {
-    border-radius: 3px;
+    border-radius: 0px;
     background-color: rgb(255, 85, 130);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-weight: 500;
     padding: 0.6rem 2rem;
     border: 0;
@@ -148,15 +150,16 @@ p.lead {
 }
 
 .btn-dark {
-    border-radius: 3px;
+    border-radius: 0px;
     background: rgb(255, 255, 255);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 600;
     color: rgb(255, 85, 130);
+    border: 0;
 ;
     margin: 0.5rem;
-    padding: 0.7rem 1.6rem;
+    padding: 0.6rem 1.3rem;
     line-height: 1.8;
 }
 
@@ -187,7 +190,7 @@ p.lead {
 }
 
 .section2 {
-    padding: 50px 0;
+    padding: 32px 0;
 }
 .section-title {
     text-align: center;

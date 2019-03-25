@@ -196,27 +196,26 @@
     </div>
 
     <div class="section2 pink-bg">
-        <div class="container pt-0">
-            <div class="row">
-                <div class="col-lg-7  col-sm-12 text-center text-lg-right mt-2">
-                    <h4 style="font-size: 30px; color: white; text-shadow: grey 0px 0px 1px"><b>Put your office on
-                        autopilot.</b></h3>
-                </div>
+                    <div class="container pt-0">
+                        <div class="row">
+                            <div class="col-lg-7  col-sm-12 text-center text-lg-right mt-2">
+                                <h3 style="font-size: 25px; color: white; text-shadow: grey 0px 0px 1px; font-weight: 500">Put your office on autopilot</h3>
+                            </div>
 
-                <div class="col-lg-5  col-sm-12 text-center text-lg-left">
-                    <p class="nav-item text-center text-lg-left"><a href="./get-started.html"
-                            class="btn btn-outline-light ctaHero btn-lg btn-dark my-3 my-sm-0 ml-lg-3" onclick="return trackGetStartedClickFromPricingPage()">Get
-                            Started</a></p>
-
-                    <script>
-                        function trackGetStartedClickFromPricingPage() {
-                            mixpanel.track('Clicked Get Started From Bottom of Pricing Page');
-                        }
-                    </script>
+                            <div class="col-lg-5  col-sm-12 text-left text-lg-left">
+                                <p class="nav-item text-center text-lg-left"><a href="./get-started.html"
+                                        class="btn btn-outline ctaHero btn btn-dark my-sm-0 ml-lg-3"
+                                        onclick="return trackGetStartedClickFromHome()">Get
+                                        Started</a></p>
+                                <script>
+                                    function trackGetStartedClickFromHome() {
+                                        mixpanel.track('Clicked Get Started From Home Page');
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Footer (loaded from script.js -->
     <footer id="footerMenu"></footer>
