@@ -36,15 +36,8 @@ $(function () {
         '<li class="nav-item"> <a class="nav-link" href="./office-app.html">Office App</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./faq.html">FAQs</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
-        '<li class="nav-item dropdown">' +
-        '<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Partner With Us' +
-        '</a>'+
-        '<div class="dropdown-menu" aria-labelledby="navbarDropdown">'+
-          '<a class="dropdown-item" href="./landlord-partnerships.html">Landlords</a>' +
-          '<div class="dropdown-divider"></div>' +
-          '<a class="dropdown-item" href="./vendor-partnerships.html">Service Vendors</a>' +
-        '</div>'+
-        ' </li>'+
+        '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">For Landlords</a> </li>' +
+        
         // '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
         '<li class="nav-item"> <a class="nav-link" target="_blank" href="https://www.reserveairspace.com">Sign In</a> </li>' +
         '<li class="nav-item lightbox-82797864536173"><a target="_blank" href="https://www.reserveairspace.com/get-started" class="btn btn-outline-light btn-sm my-3 my-sm-0 ml-lg-3 mt-lg-1">Get Started</a></li>'+
@@ -70,7 +63,7 @@ $(function () {
             // '<a href="./about.html" class="my-1">About</a>' +
             // '<a href="./experience-manager.html" class="my-1">Experience Management</a>' +
             '<a href="./office-app.html" class="my-1">Airspace Office App</a>' +
-            '<a href="./landlord-partnerships.html" class="my-1">Landlord Partnerships</a>' +
+            '<a href="./landlord-partnerships.html" class="my-1">For Landlords</a>' +
             '<a href="./vendor-partnerships.html" class="my-1">Vendor Partnerships</a>' +
             /*'<a href="./spaces.html" class="my-1">Spaces</a>' +*/
             '</div>' +
