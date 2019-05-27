@@ -71,6 +71,7 @@ $(function () {
             '<div class="col-lg-2 col-5 footer-col text-left mb-3">' +
             '<p style="color: black;" class="mt-3 mt-lg-0 mb-2"><b>More</b></p>' +
             '<div style="display: flex; flex-direction:column;">' +
+            '<a href="./about.html" class="my-1">About</a>' +
             '<a href="./blog.html" class="my-1">Blog</a>' +
             // '<a href="./careers.html" class="my-1">Careers</a>' +
             /*'<a href="./referrals.html" class="my-1">Refer a Tenant</a>' +*/
