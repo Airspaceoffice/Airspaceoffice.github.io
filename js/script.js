@@ -103,7 +103,7 @@ $(function () {
             '</div>' +
             '<div class="row mt-5">' +
             '<div class="col-12 text-center">' +
-            '<p><small>COPYRIGHT © 2019. Airspace Solutions, Inc. ALL RIGHTS RESERVED.</small></p>' +
+            '<p><small>COPYRIGHT © 2019. AIRSPACE SOLUTIONS, INC. ALL RIGHTS RESERVED.</small></p>' +
             '</div>' +
             '</div>';
     }
