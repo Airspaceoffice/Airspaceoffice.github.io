@@ -86,9 +86,6 @@ $(function () {
             '<p class="mb-2">' +
             '<span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:hello@airspaceoffice.co">hello@airspaceoffice.co</a></span>' +
             '</p>' +
-            '<p class="mb-0">' +
-            '<span class="ti-headphone-alt mr-2"></span> <a href="tel:3127245112">312-724-5112</a>' +
-            '</p>' +
             '</div>' +
             '<br>' +
             '<div class="social-icons text-center text-lg-left mt-3">' +
