@@ -36,6 +36,7 @@ $(function () {
         // '<li class="nav-item"> <a class="nav-link" href="./faq.html">FAQs</a> </li>' +
         // '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">Landlords</a> </li>' +
         '<li class="nav-item"> <a class="nav-link" href="./landlord-partnerships.html">For Landlords</a> </li>' +
+        '<li class="nav-item"> <a class="nav-link" href="index.html#Howitworks">How It Works</a> </li>' +
         
         // '<li class="nav-item"> <a class="nav-link" href="./about.html">About</a> </li>'+
         '<li class="nav-item"> <a class="nav-link" target="_blank" href="https://www.reserveairspace.com">Sign In</a> </li>' +
